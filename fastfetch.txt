@@ -1,0 +1,50 @@
+                                     _
+                                    (_)
+              |    .
+          .   |L  /|   .          _
+      _ . |\ _| \--+._/| .       (_)
+     / ||\| Y J  )   / |/| ./
+    J  |)'( |        ` F`.'/        _
+  -<|  F         __     .-<        (_)
+    | /       .-'. `.  /-. L___
+    J \      <    \  | | O\|.-'  _
+  _J \  .-    \/ O | | \  |F    (_)
+ '-F  -<_.     \   .-'  `-' L__
+__J  _   _.     >-'  )._.   |-'
+ `-|.'   /_.          \_|   F
+  /.-   .                _.<
+ /'    /.'             .'  `\
+  /L  /'   |/      _.-'-\
+ /'J       ___.---'\|
+   |\  .--' V  | `. `
+   |/`. `-.     `._)
+      / .-.\
+      \ (  `\
+       `.\[1G[22A[43Croot@hpsd
+[43C---------
+[43COS: OpenBSD 7.8 amd64
+[43CHost: HP Elite Mini 600 G9 Desktop PC (SBKPFV3)
+[43CKernel: OpenBSD 7.8
+[43CUptime: 2 hours, 24 mins
+[43CPackages: 1001 (pkg)
+[43CShell: bash 5.3.3
+[43CDisplay (PL2780H): 1920x1080 in 27", 60 Hz [External]
+[43CTerminal: wsvt25
+[43CCPU: 12th Gen Intel(R) Core(TM) i7-12700T (20) @ 4.70 GHz
+[43CGPU: Intel AlderLake-S GT1
+[43CMemory: 3.73 GiB / 61.29 GiB (6%)
+[43CSwap: 0 B / 63.47 GiB (0%)
+[43CDisk (/): 226.33 MiB / 985.76 MiB (23%) - ffs
+[43CDisk (/home): 89.54 MiB / 295.27 GiB (0%) - ffs
+[43CDisk (/tmp): 43.97 MiB / 3.87 GiB (1%) - ffs
+[43CDisk (/usr): 5.70 GiB / 29.06 GiB (20%) - ffs
+[43CDisk (/usr/X11R6): 344.21 MiB / 985.76 MiB (35%) - ffs
+[43CDisk (/usr/local): 12.48 GiB / 19.37 GiB (64%) - ffs
+[43CDisk (/usr/obj): 2.00 KiB / 5.81 GiB (0%) - ffs
+[43CDisk (/usr/src): 2.00 KiB / 4.84 GiB (0%) - ffs
+[43CDisk (/var): 104.99 MiB / 115.91 GiB (0%) - ffs
+[43CLocal IP (em0): 192.168.58.145/22
+[43CLocale: C
+[43C
+[43C[40m   [41m   [42m   [43m   [44m   [45m   [46m   [47m   [m
+[43C[100m   [101m   [102m   [103m   [104m   [105m   [106m   [107m   [m
