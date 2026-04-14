@@ -1,504 +1,504 @@
-ImageMagick-6.9.13.26p0 image processing tools
-Imath-3.2.1         C++ and python library of 2D and 3D vector & matrix
-OpenEXR-3.4.0       high dynamic range image format
-abseil-cpp-20250814.1 abseil common libraries (C++)
-accountsservice-23.13.9p1 D-Bus interface for user account query and manipulation
-adwaita-icon-theme-48.1p0 base icon theme for GNOME
-adwaita-icon-theme-legacy-46.2p0 legacy icon theme for GNOME
-aircrack-ng-1.7p1   802.11 WEP and WPA-PSK keys cracking program
-akonadi-25.08.1     PIM Storage Service
-akonadi-calendar-25.08.1 PIM Akonadi calendar support library
-akonadi-calendar-tools-25.08.1 PIM Akonadi calendar tools
-akonadi-contacts-25.08.1 PIM Akonadi contacts support library
-akonadi-import-wizard-25.08.1 PIM Akonadi import wizard
-akonadi-mime-25.08.1 PIM Akonadi mime support library
-akonadi-search-25.08.1 libraries and daemons to implement searching in Akonadi
-akonadiconsole-25.08.1 Akonadi management and debugging console
-akregator-25.08.1   news feed reader
-analitza-25.08.1    KDE mathematical features
-aom-3.12.1          Alliance for Open Media AV1 video codec
-arianna-25.08.1     eBook reader
-ark-25.08.1         archiving Tool
-artikulate-25.08.1  pronunciation trainer
-aspell-0.60.8.1p0   spell checker with multi-language support
-assimp-5.4.3        open asset import library
-at-spi2-core-2.56.5 service interface for assistive technologies
-audiocd-kio-25.08.1 Kio slave for accessing audio CDs
-aurorae-6.4.5       themeable window decoration for KWin
-autoconf-2.72p0     automatically configure source code on many Un*x platforms
-automake-1.18       GNU Standards-compliant Makefile generator
-avahi-0.8p11        framework for Multicast DNS Service Discovery
-avahi-glib-0.8p4    GLib and GObject integration libraries for avahi
-avahi-libs-0.8p6    libraries and common data files for avahi
-babl-0.1.114        dynamic pixel format conversion library
-bash-5.3.3          GNU Bourne Again Shell
-bash-completion-2.16.0p0 programmable completion functions for bash
-binutils-2.45p0     GNU binary utilities
-binwalk-2.3.4p4     tool for reverse-engineering and analysing firmware blobs
-bison-3.8.2p0       GNU parser generator
-blinken-25.08.1     memory enhancement game
-blosc-1.21.6p0      blocking, shuffling, fast and lossless compression library
-boehm-gc-8.2.8      garbage collection and memory leak detection for C and C++
-bomber-25.08.1      arcade bombing game
-boost-1.87.0p0v0    free peer-reviewed portable C++ source libraries
-bovo-25.08.1        five-in-a-row Board Game
-breeze-6.4.5        Breeze KDE desktop theme
-breeze-gtk-6.4.5    GTK2 theme matching KDE Breeze
-brotli-1.0.9p1      generic lossless compressor
-btop-1.4.5          resource monitor
-bwm-ng-0.6.3        realtime bandwidth monitoring of interfaces
-bzip2-1.0.8p0       block-sorting file compressor, unencumbered
-bzip3-1.5.3         compress and decompress bzip3 files
-cairo-1.18.4        vector graphics library
-calendarsupport-25.08.1 PIM calendar support library
-capstone-5.0        multi-platform, multi-architecture disassembly framework
-catdoc-0.95         convert MS Word, Excel, Powerpoint to ASCII or TeX
-cde-2.5.2.0.20250613p8 Common Desktop Environment
-cdparanoia-3.a9.8p5 CDDA reading utility with extra data verification features
-cdrtools-3.00p4     ISO 9660 filesystem and CD/DVD/BD creation tools
-celt-0.11.1p0v1     experimental ultra-low delay audio codec
-cervisia-25.04.3    CVS GUI for KDE
-chromium-145.0.7632.109 Chromium browser
-clang-tools-extra-21.1.2 Clang extra tools
-clisp-2.49p7        ANSI Common Lisp implementation
-cmake-3.31.8v1      CMake build system (meta package)
-cmake-core-3.31.8p0 portable build system
-cmake-man-3.31.8    manuals for CMake
-cmark-0.30.3p0      CommonMark parsing and rendering library and program in C
-colorls-7.6         ls(1) that can use color to display file attributes
-consolekit2-1.2.6p4 framework for defining and tracking users, sessions & seats
-coreutils-9.7       file, shell and text manipulation utilities
-cups-libs-2.4.16    CUPS libraries and headers
-curl-8.19.0         transfer files with FTP, HTTP, HTTPS, etc.
-cvsps-2.1p3         generate patchsets from CVS repositories
-cyrus-sasl-2.1.28p2 RFC 2222 SASL (Simple Authentication and Security Layer)
-dateutils-0.4.11    tools to fiddle with dates and times
-dav1d-1.5.1         small and fast AV1 decoder
-db-4.6.21p8v0       Berkeley DB package, revision 4
-dbus-1.16.2p1v0     message bus system
-dbus-daemon-launch-helper-1.16.2 DBus setuid helper for starting system services
-dbus-glib-0.114v0   glib bindings for dbus message system
-dbusmenu-qt5-0.9.3p6 D-Bus menu implementation for Qt
-dconf-0.40.0p2      configuration backend system
-desktop-file-utils-0.28p0 utilities for dot.desktop entries
-detex-2.8.1         strip TeX/LaTeX codes from a file
-devhelp-43.0p2      API documentation browser for GNOME
-dialog-1.3.20250817 curses widgets (menus, lists, etc) for shell scripts
-discount-3.0.1.2    fast C implementation of Markdown
-djvulibre-3.5.28p4  view, decode and encode DjVu files
-dmidecode-3.6       dump DMI/SMBIOS contents in human-readable format
-docbook-4.5p4       technical documentation XML/SGML definitions
-docbook-dsssl-1.79p0 modular DSSSL stylesheets for the DocBook DTD
-docbook-xsl-1.79.1p0 docbook XSL modular stylesheet
-dolphin-plugins-25.08.1 Dolphin plugins
-dotconf-1.3p0       simple, powerful configuration-file parser
-double-conversion-3.3.0 binary-decimal and decimal-binary routines for IEEE doubles
-dragon-25.08.1      simple video player for KDE
-duktape-2.7.0p1     embeddable JavaScript engine
-dvdauthor-0.7.2p3   creates DVD file structures
-dvi2tty-5.3.1p0     converts .dvi files to plain text
-dwz-0.16            DWARF optimization and duplicate removal tool
-e2fsprogs-1.47.3    utilities to manipulate ext2 filesystems
-ebook-tools-0.2.2   accessing and converting various ebook file formats
-editorconfig-core-c-0.12.5 library for IDE consistency
-elisa-25.08.1       audio player with QML and KDE Plasma integration
-enchant2-2.8.12     generic spell checking library
-epoll-shim-0.0.20240608 small epoll implementation using kqueue
-espeak-1.52.0       compact speech synthesizer
-ettercap-0.8.3.1p0  multi-purpose sniffer/interceptor/logger
-eventviews-25.08.1  KDE PIM library for creating events
-exfat-fuse-1.4.0    exFAT file system through FUSE
-exiv2-0.28.7v0      image metadata manipulation
-exo-4.20.0p0        Xfce4 extension library
-f3-9.0              test flash cards capacity and performance
-fastfetch-2.53.0    neofetch-like tool for fetching system information
-ffcall-1.10p6       foreign function call libraries
-ffmpeg-6.1.3p0v1    audio/video converter and streamer
-ffmpegthumbnailer-2.2.2p0 lightweight video thumbnailer for file managers
-fftw3-3.3.10p1      C routines for computing the Discrete Fourier Transform
-fftw3-common-3.3.10p0 common files for the fftw3 packages
-fftw3-float-3.3.10p1 C routines for computing the Discrete Fourier Transform
-filelight-25.08.1   graphical equivalent of du
-findutils-4.10.0p0  finds and then operates on files
-fio-3.38            flexible I/O tester
-flac-1.5.0          free lossless audio codec
-flite-2.2           text to speech utility
-fluidsynth-2.4.8    SoundFont2 software synthesizer
-frameworkintegration-5.116.0 KDE Plasma integration support for Qt-based apps
-frei0r-plugins-2.4.0 minimalistic plugin API for video effects
-fribidi-1.0.16p0    library implementing the Unicode Bidirectional Algorithm
-fuse-utils-1.4.3p2  Free Unix Spectrum Emulator utilities
-futuresql-0.1.1     non-blocking Qt database framework
-fzf-0.68.0p0        command-line fuzzy finder
-g++-11.2.0p19       GNU compiler collection: C++ compiler
-garcon-4.20.0p0     Xfce4 freedesktop.org compliant menu implementation
-gas-2.45p1          GNU assembler
-gcc-11.2.0p19       GNU compiler collection: core C compiler
-gcc-libs-11.2.0p19  GNU compiler collection: support libs
-gcr4-4.4.0.1        library for bits of crypto UI and parsing
-gd-2.3.3            library for dynamic creation of images
-gdb-16.3            GNU debugger
-gdbm-1.24p0         GNU dbm
-gdk-pixbuf-2.44.3p0 image data transformation library
-geoclue2-2.8.0      modular geoinformation service on top of D-Bus
-geolite2-country-20191224p3 GeoIP2 GeoLite2 database: IPv4/v6 address to country
-gettext-runtime-0.23.1 GNU gettext runtime libraries and programs
-gettext-tools-0.23.1 GNU gettext development and translation tools
-ghostscript-10.06.0 PostScript and PDF interpreter
-ghostscript-fonts-8.11p3 35 standard PostScript fonts with Adobe name aliases
-giflib-5.2.2p0      tools and library routines for working with GIF images
-git-2.51.0          distributed version control system
-github-cli-2.79.0   command-line access to github pull requests, issues and more
-gitwrapper-0.123    invoke an appropriate Git repository server
-glade-3.40.0p7      user interface builder for the gtk+3 toolkit
-glib2-2.84.4        general-purpose utility library
-glib2-networking-2.80.1p0 network-related gio modules for GLib
-glib2mm-2.66.8      C++ interface for glib2
-glslang-15.4.0      reference front-end for GLSL and ESSL
-gmake-4.4.1p0       GNU make
-gmp-6.3.0           library for arbitrary precision arithmetic
-gnome-devel-docs-40.3p1 developer documentation for GNOME
-gnome-icon-theme-3.12.0p8 base icon theme for GNOME
-gnome-icon-theme-symbolic-3.12.0p6 base icon theme extension for special UI contexts
-gnugo-3.8p3         GNU version of Go
-gnupg-2.4.9         GNU privacy guard - a free PGP replacement
-gnutls-3.8.10p1     GNU Transport Layer Security library
-go-1.25.1           Go programming language
-gobject-introspection-1.84.0 GObject Introspection
-gperf-3.1p0         perfect hash functions, to help write parsers
-gpgme-1.24.3p0      GnuPG Made Easy
-gpgme-qt-1.24.3     Qt bindings for GPGme
-gpsd-3.26.1         service daemon that monitors one or more GPSes
-granatier-25.08.1   clone of the classic bomberman game
-grantlee-editor-25.08.1 utilities and tools to manage themes in KDE PIM applications
-grantlee-qt5-5.3.1  template and text document library for Qt5
-grantleetheme-25.08.1 grantlee theme library
-graphene-1.10.8p1   thin layer of graphic data types
-graphite2-1.3.14    rendering for complex writing systems
-graphviz-10.0.1p1   graph drawing software
-greybird-3.23.4     desktop suite theme for Xfce
-groff-1.22.4p4      GNU troff typesetter
-gsettings-desktop-schemas-48.0 collection of shared GSettings schemas
-gsl-2.7.1           GNU Scientific Library
-gsm-1.0.23          GSM audio codec library and converter
-gspell-1.14.1       spell-checking library for GTK+
-gst-plugins-bad-1.26.6 bad elements for GStreamer
-gst-plugins-base-1.26.6 base elements for GStreamer
-gst-plugins-good-1.26.6 good elements for GStreamer
-gstreamer1-1.26.6   framework for streaming media
-gstreamer1mm-1.10.0p10 C++ bindings for GStreamer
-gtar-1.35p1         GNU version of the traditional tape archiver
-gtest-1.15.2        C++ unit test framework
-gtk+2-2.24.33p6     multi-platform graphical toolkit
-gtk+3-3.24.51       multi-platform graphical toolkit
-gtk+3-cups-3.24.51  gtk+3 CUPS print backend
-gtk+4-4.20.2        multi-platform graphical toolkit
-gtk-layer-shell-0.9.2 desktop components for Wayland using the Layer Shell proto
-gtk2-murrine-engine-0.98.2p11 beautiful glass-like GTK+ 2.x engine and themes
-gtk4-update-icon-cache-4.20.2 gtk+ icon theme caching utility
-gtksourceview4-4.8.4p1 text widget that extends the GTK3 GtkTextView widget
-guile2-2.2.7p0      GNU's Ubiquitous Intelligent Language for Extension
-gvfs-1.58.0         GNOME Virtual File System
-hack-fonts-3.003    typeface designed for source code
-harfbuzz-12.1.0     text shaping library
-harfbuzz-icu-12.1.0 ICU support for libharfbuzz
-hicolor-icon-theme-0.18 fallback theme of the icon theme specification
-highway-1.2.0       length-agnostic SIMD with runtime dispatch
-htop-3.4.1          interactive process viewer
-hunspell-1.7.2      spelling, stemming, morphological analysis and generation
-hwdata-0.399        hardware identification and configuration data
-hyphen-2.8.8p0      text hyphenation library
-ibus-1.5.32         intelligent input bus framework
-icu4c-77.1v0        International Components for Unicode
-id3lib-3.8.3p10     library for manipulating ID3v1 and ID3v2 tags
-ijs-0.35p3          raster image transmission library
-incidenceeditor-25.08.1 KDE PIM incidence editor
-intel-firmware-20260227v0 microcode update binaries for Intel CPUs
-inteldrm-firmware-20250708 firmware binary images for inteldrm(4) driver
-iodbc-3.52.16       ODBC 3.x driver manager
-iso-codes-4.18.0    lists of the country, language and currency iso names
-iso8879-1986p1      character entity sets from ISO 8879:1986 (SGML)
-itinerary-25.08.1   digital travel assistant
-iwx-firmware-20251021p0 firmware binary images for iwx(4) driver
-jack-0.125.0p5      low latency sound server
-jansson-2.14.1      library for manipulating JSON data
-jasper-4.2.8        reference implementation of JPEG-2000
-jbig2dec-0.19p0     decoder for JBIG2 monochrome hi-res image compression format
-jbigkit-2.1p0       lossless image compression library, with lightweight version
-jefferson-0.4.2p3   JFFS2 filesystem extraction tool
-john-jumbo-1.9.0.1p1 extremely fast password cracker, with community patches
-jpeg-3.1.2v0        SIMD-accelerated JPEG codec replacement of libjpeg
-json-c-0.18         JSON implementation in C
-json-glib-1.10.8    JSON parser for GLib-based libraries and applications
-jsoncpp-1.9.6       JSON parsing C++ API
-juk-25.08.1         music collection manager and player for KDE
-kaccounts-providers-25.08.1 online account providers for the KAccounts system
-kactivitymanagerd-6.4.5 core components for the KDE Activity concept
-kaddressbook-25.08.1 addressbook viewer/frontend for KDE
-kalarm-25.08.1      personal alarm message, command and email scheduler
-kalgebra-25.08.1    scientific calculator for KDE
-kalzium-25.08.1     periodic table of elements
-kamera-25.08.1      KDE digital camera support
-kanagram-25.08.1    letter order game
-kapman-25.08.1      pac-man clone
-kapptemplate-25.08.1 app template generator for KDE development
-karchive-5.116.0    Qt5-based API for manipulating file archives
-kate-25.08.1        KDE advanced text editor
-katomic-25.08.1     Sokoban-like logic game
-kauth-5.116.0       execute actions as privileged user
-kbackup-25.08.1     KDE backup program with an easy to use user interface
-kbibtex-0.10.0p0    KDE TeX/LaTeX bibliographies management application
-kblackbox-25.08.1   blackbox logic game
-kblocks-25.08.1     falling blocks game
-kbookmarks-5.116.0  XBEL bookmarks format support for KDE
-kbounce-25.08.1     ball bouncing game
-kbreakout-25.08.1   breakout-like game
-kbruch-25.08.1      KDE calculating fractions practicing app
-kcachegrind-25.08.1 profile data visualization tool
-kcalc-25.08.1       KDE versatile math calculator
-kcalutils-25.08.1   library for the handling of calendar data.
-kcharselect-25.08.1 KDE character select and clipboard copy
-kcmutils-5.116.0    utility classes for KDE control modules
-kcodecs-5.116.0     string encoding/decoding for KDE
-kcolorchooser-25.08.1 KDE color selector
-kcolorpicker-0.3.1  qt-based color picker with popup menu
-kcompletion-5.116.0 text completion support for Qt-based apps
-kconfig-5.116.0     KDE configuration system
-kconfigwidgets-5.116.0 widgets for KDE configuration dialogs
-kcoreaddons-5.116.0 core KDE extensions to Qt classes
-kcrash-5.116.0      intercepting and handling application crashes in KDE
-kcron-25.08.1       KDE-based GUI for cron task scheduler
-kdbusaddons-5.116.0 KDE convenience classes for DBus
-kde-accessibility-25.08.1 KDE accessibility applications
-kde-admin-25.08.1   KDE system administrator tools
-kde-cli-tools-6.4.5 KDE krameworks 5 tools
-kde-dev-scripts-25.08.1 KDE development helper scripts
-kde-dev-utils-25.08.1 KDE development helper utilities
-kde-development-25.08.1 KDE development applications
-kde-games-25.08.1   KDE games
-kde-gtk-config-6.4.5 GTK2 and GTK3 configurator for KDE
-kde-multimedia-25.08.1 KDE multimedia applications
-kde-network-25.08.1 KDE network applications
-kde-pim-25.08.1     KDE PIM personal information managemen applications
-kde-utils-25.08.1   KDE utilities
-kdebugsettings-25.08.1 application to edit QLoggingCategory
-kdeclarative-5.116.0 integration of QML and KDE workspaces
-kdeconnect-kde-25.08.1p0 KDE app that allows your devices to communicate
-kdecoration-6.4.5   plugin-based library to create KDE window decorations
-kded-5.116.0        central daemon of KDE workspaces
-kdeedu-data-25.08.1 data files for KDE education applications
-kdegraphics-mobipocket-kf5-25.08.1 collection of plugins to handle mobipocket files
-kdenetwork-filesharing-25.08.1 KDE Filesharing via Samba
-kdenlive-25.08.1    non-linear video editor for KDE
-kdepim-addons-25.08.1 KDE PIM mail related libraries
-kdepim-runtime-25.08.1 KDE PIM mail related libraries
-kdesdk-thumbnailers-25.08.1 KDE thumbnail generators for development files
-kdesu-5.116.0p0     KDE wrapper over doas commands
-kdf-25.08.1         KDE storage device statistics
-kdiagram-qt6-3.0.1  libraries for creating business diagrams
-kdialog-25.08.1     KDE dialog boxes from shell scripts
-kdiamond-25.08.1    three-in-a-row game
-kdoctools-5.116.0   create documentation from DocBook
-kdsoap-2.2.0p0      Qt-based client-side and server-side SOAP component
-kdsoap-ws-discovery-client-0.4.0p0 KDSoap WS-Discovery client
-keditbookmarks-25.08.1 KDE bookmarks editor
-kermit-9.0.302p1    serial and network communications package
-kf5-attica-5.116.0  Open Collaboration Services API implementation
-kf5-kirigami2-5.116.0 QtQuick based components set
-kf5-kwallet-5.116.0p1 KDE safe desktop-wide storage for passwords
-kf6-attica-6.18.0   Open Collaboration Services API implementation
-kf6-baloo-6.18.0    KDE file search and metadata handling framework
-kf6-baloo-widgets-25.08.1 widgets for Baloo
-kf6-bluez-qt-6.18.0 Qt wrapper for BlueZ 5 DBus API
-kf6-breeze-icons-6.18.0 KDE Breeze-style light and dark icon themes
-kf6-dolphin-25.08.1 KDE File Manager
-kf6-ffmpegthumbs-25.08.1 KDE FFmpeg-based thumbnail generator for video files
-kf6-frameworkintegration-6.18.0 KDE Plasma integration support for Qt-based apps
-kf6-kaccounts-integration-25.08.1 library and QML module for Accounts-SSO and SignOn-SSO
-kf6-karchive-6.18.0 Qt6-based API for manipulating file archives
-kf6-kauth-6.18.0    execute actions as privileged user
-kf6-kbookmarks-6.18.0 XBEL bookmarks format support for KDE
-kf6-kcalendarcore-6.18.0 KDE calendar access library
-kf6-kcmutils-6.18.0 utility classes for KDE control modules
-kf6-kcodecs-6.18.0  string encoding/decoding for KDE
-kf6-kcolorscheme-6.18.0 classes to read and interact with KColorScheme
-kf6-kcompletion-6.18.0 text completion support for Qt-based apps
-kf6-kconfig-6.18.0  KDE configuration system
-kf6-kconfigwidgets-6.18.0 widgets for KDE configuration dialogs
-kf6-kcontacts-6.18.0 KDE contacts access library
-kf6-kcoreaddons-6.18.0 core KDE extensions to Qt classes
-kf6-kcrash-6.18.0   intercepting and handling application crashes in KDE
-kf6-kdav-6.18.0     KDE PIM DAV protocol support library
-kf6-kdbusaddons-6.18.0 KDE convenience classes for DBus
-kf6-kdeclarative-6.18.0 integration of QML and KDE workspaces
-kf6-kded-6.18.0     central daemon of KDE workspaces
-kf6-kdegraphics-mobipocket-25.08.1 collection of plugins to handle mobipocket files
+ImageMagick-6.9.13.26p0             image processing tools
+Imath-3.2.1                         C++ and python library of 2D and 3D vector & matrix
+OpenEXR-3.4.0                       high dynamic range image format
+abseil-cpp-20250814.1               abseil common libraries (C++)
+accountsservice-23.13.9p1           D-Bus interface for user account query and manipulation
+adwaita-icon-theme-48.1p0           base icon theme for GNOME
+adwaita-icon-theme-legacy-46.2p0    legacy icon theme for GNOME
+aircrack-ng-1.7p1                   802.11 WEP and WPA-PSK keys cracking program
+akonadi-25.08.1                     PIM Storage Service
+akonadi-calendar-25.08.1            PIM Akonadi calendar support library
+akonadi-calendar-tools-25.08.1      PIM Akonadi calendar tools
+akonadi-contacts-25.08.1            PIM Akonadi contacts support library
+akonadi-import-wizard-25.08.1       PIM Akonadi import wizard
+akonadi-mime-25.08.1                PIM Akonadi mime support library
+akonadi-search-25.08.1              libraries and daemons to implement searching in Akonadi
+akonadiconsole-25.08.1              Akonadi management and debugging console
+akregator-25.08.1                   news feed reader
+analitza-25.08.1                    KDE mathematical features
+aom-3.12.1                          Alliance for Open Media AV1 video codec
+arianna-25.08.1                     eBook reader
+ark-25.08.1                         archiving Tool
+artikulate-25.08.1                  pronunciation trainer
+aspell-0.60.8.1p0                   spell checker with multi-language support
+assimp-5.4.3                        open asset import library
+at-spi2-core-2.56.5                 service interface for assistive technologies
+audiocd-kio-25.08.1                 Kio slave for accessing audio CDs
+aurorae-6.4.5                       themeable window decoration for KWin
+autoconf-2.72p0                     automatically configure source code on many Un*x platforms
+automake-1.18                       GNU Standards-compliant Makefile generator
+avahi-0.8p11                        framework for Multicast DNS Service Discovery
+avahi-glib-0.8p4                    GLib and GObject integration libraries for avahi
+avahi-libs-0.8p6                    libraries and common data files for avahi
+babl-0.1.114                        dynamic pixel format conversion library
+bash-5.3.3                          GNU Bourne Again Shell
+bash-completion-2.16.0p0            programmable completion functions for bash
+binutils-2.45p0                     GNU binary utilities
+binwalk-2.3.4p4                     tool for reverse-engineering and analysing firmware blobs
+bison-3.8.2p0                       GNU parser generator
+blinken-25.08.1                     memory enhancement game
+blosc-1.21.6p0                      blocking, shuffling, fast and lossless compression library
+boehm-gc-8.2.8                      garbage collection and memory leak detection for C and C++
+bomber-25.08.1                      arcade bombing game
+boost-1.87.0p0v0                    free peer-reviewed portable C++ source libraries
+bovo-25.08.1                        five-in-a-row Board Game
+breeze-6.4.5                        Breeze KDE desktop theme
+breeze-gtk-6.4.5                    GTK2 theme matching KDE Breeze
+brotli-1.0.9p1                      generic lossless compressor
+btop-1.4.5                          resource monitor
+bwm-ng-0.6.3                        realtime bandwidth monitoring of interfaces
+bzip2-1.0.8p0                       block-sorting file compressor, unencumbered
+bzip3-1.5.3                         compress and decompress bzip3 files
+cairo-1.18.4                        vector graphics library
+calendarsupport-25.08.1             PIM calendar support library
+capstone-5.0                        multi-platform, multi-architecture disassembly framework
+catdoc-0.95                         convert MS Word, Excel, Powerpoint to ASCII or TeX
+cde-2.5.2.0.20250613p8              Common Desktop Environment
+cdparanoia-3.a9.8p5                 CDDA reading utility with extra data verification features
+cdrtools-3.00p4                     ISO 9660 filesystem and CD/DVD/BD creation tools
+celt-0.11.1p0v1                     experimental ultra-low delay audio codec
+cervisia-25.04.3                    CVS GUI for KDE
+chromium-145.0.7632.109             Chromium browser
+clang-tools-extra-21.1.2            Clang extra tools
+clisp-2.49p7                        ANSI Common Lisp implementation
+cmake-3.31.8v1                      CMake build system (meta package)
+cmake-core-3.31.8p0                 portable build system
+cmake-man-3.31.8                    manuals for CMake
+cmark-0.30.3p0                      CommonMark parsing and rendering library and program in C
+colorls-7.6                         ls(1) that can use color to display file attributes
+consolekit2-1.2.6p4                 framework for defining and tracking users, sessions & seats
+coreutils-9.7                       file, shell and text manipulation utilities
+cups-libs-2.4.16                    CUPS libraries and headers
+curl-8.19.0                         transfer files with FTP, HTTP, HTTPS, etc.
+cvsps-2.1p3                         generate patchsets from CVS repositories
+cyrus-sasl-2.1.28p2                 RFC 2222 SASL (Simple Authentication and Security Layer)
+dateutils-0.4.11                    tools to fiddle with dates and times
+dav1d-1.5.1                         small and fast AV1 decoder
+db-4.6.21p8v0                       Berkeley DB package, revision 4
+dbus-1.16.2p1v0                     message bus system
+dbus-daemon-launch-helper-1.16.2    DBus setuid helper for starting system services
+dbus-glib-0.114v0                   glib bindings for dbus message system
+dbusmenu-qt5-0.9.3p6                D-Bus menu implementation for Qt
+dconf-0.40.0p2                      configuration backend system
+desktop-file-utils-0.28p0           utilities for dot.desktop entries
+detex-2.8.1                         strip TeX/LaTeX codes from a file
+devhelp-43.0p2                      API documentation browser for GNOME
+dialog-1.3.20250817                 curses widgets (menus, lists, etc) for shell scripts
+discount-3.0.1.2                    fast C implementation of Markdown
+djvulibre-3.5.28p4                  view, decode and encode DjVu files
+dmidecode-3.6                       dump DMI/SMBIOS contents in human-readable format
+docbook-4.5p4                       technical documentation XML/SGML definitions
+docbook-dsssl-1.79p0                modular DSSSL stylesheets for the DocBook DTD
+docbook-xsl-1.79.1p0                docbook XSL modular stylesheet
+dolphin-plugins-25.08.1             Dolphin plugins
+dotconf-1.3p0                       simple, powerful configuration-file parser
+double-conversion-3.3.0             binary-decimal and decimal-binary routines for IEEE doubles
+dragon-25.08.1                      simple video player for KDE
+duktape-2.7.0p1                     embeddable JavaScript engine
+dvdauthor-0.7.2p3                   creates DVD file structures
+dvi2tty-5.3.1p0                     converts .dvi files to plain text
+dwz-0.16                            DWARF optimization and duplicate removal tool
+e2fsprogs-1.47.3                    utilities to manipulate ext2 filesystems
+ebook-tools-0.2.2                   accessing and converting various ebook file formats
+editorconfig-core-c-0.12.5          library for IDE consistency
+elisa-25.08.1                       audio player with QML and KDE Plasma integration
+enchant2-2.8.12                     generic spell checking library
+epoll-shim-0.0.20240608             small epoll implementation using kqueue
+espeak-1.52.0                       compact speech synthesizer
+ettercap-0.8.3.1p0                  multi-purpose sniffer/interceptor/logger
+eventviews-25.08.1                  KDE PIM library for creating events
+exfat-fuse-1.4.0                    exFAT file system through FUSE
+exiv2-0.28.7v0                      image metadata manipulation
+exo-4.20.0p0                        Xfce4 extension library
+f3-9.0                              test flash cards capacity and performance
+fastfetch-2.53.0                    neofetch-like tool for fetching system information
+ffcall-1.10p6                       foreign function call libraries
+ffmpeg-6.1.3p0v1                    audio/video converter and streamer
+ffmpegthumbnailer-2.2.2p0           lightweight video thumbnailer for file managers
+fftw3-3.3.10p1                      C routines for computing the Discrete Fourier Transform
+fftw3-common-3.3.10p0               common files for the fftw3 packages
+fftw3-float-3.3.10p1                C routines for computing the Discrete Fourier Transform
+filelight-25.08.1                   graphical equivalent of du
+findutils-4.10.0p0                  finds and then operates on files
+fio-3.38                            flexible I/O tester
+flac-1.5.0                          free lossless audio codec
+flite-2.2                           text to speech utility
+fluidsynth-2.4.8                    SoundFont2 software synthesizer
+frameworkintegration-5.116.0        KDE Plasma integration support for Qt-based apps
+frei0r-plugins-2.4.0                minimalistic plugin API for video effects
+fribidi-1.0.16p0                    library implementing the Unicode Bidirectional Algorithm
+fuse-utils-1.4.3p2                  Free Unix Spectrum Emulator utilities
+futuresql-0.1.1                     non-blocking Qt database framework
+fzf-0.68.0p0                        command-line fuzzy finder
+g++-11.2.0p19                       GNU compiler collection: C++ compiler
+garcon-4.20.0p0                     Xfce4 freedesktop.org compliant menu implementation
+gas-2.45p1                          GNU assembler
+gcc-11.2.0p19                       GNU compiler collection: core C compiler
+gcc-libs-11.2.0p19                  GNU compiler collection: support libs
+gcr4-4.4.0.1                        library for bits of crypto UI and parsing
+gd-2.3.3                            library for dynamic creation of images
+gdb-16.3                            GNU debugger
+gdbm-1.24p0                         GNU dbm
+gdk-pixbuf-2.44.3p0                 image data transformation library
+geoclue2-2.8.0                      modular geoinformation service on top of D-Bus
+geolite2-country-20191224p3         GeoIP2 GeoLite2 database: IPv4/v6 address to country
+gettext-runtime-0.23.1              GNU gettext runtime libraries and programs
+gettext-tools-0.23.1                GNU gettext development and translation tools
+ghostscript-10.06.0                 PostScript and PDF interpreter
+ghostscript-fonts-8.11p3            35 standard PostScript fonts with Adobe name aliases
+giflib-5.2.2p0                      tools and library routines for working with GIF images
+git-2.51.0                          distributed version control system
+github-cli-2.79.0                   command-line access to github pull requests, issues and more
+gitwrapper-0.123                    invoke an appropriate Git repository server
+glade-3.40.0p7                      user interface builder for the gtk+3 toolkit
+glib2-2.84.4                        general-purpose utility library
+glib2-networking-2.80.1p0           network-related gio modules for GLib
+glib2mm-2.66.8                      C++ interface for glib2
+glslang-15.4.0                      reference front-end for GLSL and ESSL
+gmake-4.4.1p0                       GNU make
+gmp-6.3.0                           library for arbitrary precision arithmetic
+gnome-devel-docs-40.3p1             developer documentation for GNOME
+gnome-icon-theme-3.12.0p8           base icon theme for GNOME
+gnome-icon-theme-symbolic-3.12.0p6  base icon theme extension for special UI contexts
+gnugo-3.8p3                         GNU version of Go
+gnupg-2.4.9                         GNU privacy guard - a free PGP replacement
+gnutls-3.8.10p1                     GNU Transport Layer Security library
+go-1.25.1                           Go programming language
+gobject-introspection-1.84.0        GObject Introspection
+gperf-3.1p0                         perfect hash functions, to help write parsers
+gpgme-1.24.3p0                      GnuPG Made Easy
+gpgme-qt-1.24.3                     Qt bindings for GPGme
+gpsd-3.26.1                         service daemon that monitors one or more GPSes
+granatier-25.08.1                   clone of the classic bomberman game
+grantlee-editor-25.08.1             utilities and tools to manage themes in KDE PIM applications
+grantlee-qt5-5.3.1                  template and text document library for Qt5
+grantleetheme-25.08.1               grantlee theme library
+graphene-1.10.8p1                   thin layer of graphic data types
+graphite2-1.3.14                    rendering for complex writing systems
+graphviz-10.0.1p1                   graph drawing software
+greybird-3.23.4                     desktop suite theme for Xfce
+groff-1.22.4p4                      GNU troff typesetter
+gsettings-desktop-schemas-48.0      collection of shared GSettings schemas
+gsl-2.7.1                           GNU Scientific Library
+gsm-1.0.23                          GSM audio codec library and converter
+gspell-1.14.1                       spell-checking library for GTK+
+gst-plugins-bad-1.26.6              bad elements for GStreamer
+gst-plugins-base-1.26.6             base elements for GStreamer
+gst-plugins-good-1.26.6             good elements for GStreamer
+gstreamer1-1.26.6                   framework for streaming media
+gstreamer1mm-1.10.0p10              C++ bindings for GStreamer
+gtar-1.35p1                         GNU version of the traditional tape archiver
+gtest-1.15.2                        C++ unit test framework
+gtk+2-2.24.33p6                     multi-platform graphical toolkit
+gtk+3-3.24.51                       multi-platform graphical toolkit
+gtk+3-cups-3.24.51                  gtk+3 CUPS print backend
+gtk+4-4.20.2                        multi-platform graphical toolkit
+gtk-layer-shell-0.9.2               desktop components for Wayland using the Layer Shell proto
+gtk2-murrine-engine-0.98.2p11       beautiful glass-like GTK+ 2.x engine and themes
+gtk4-update-icon-cache-4.20.2       gtk+ icon theme caching utility
+gtksourceview4-4.8.4p1              text widget that extends the GTK3 GtkTextView widget
+guile2-2.2.7p0                      GNU's Ubiquitous Intelligent Language for Extension
+gvfs-1.58.0                         GNOME Virtual File System
+hack-fonts-3.003                    typeface designed for source code
+harfbuzz-12.1.0                     text shaping library
+harfbuzz-icu-12.1.0                 ICU support for libharfbuzz
+hicolor-icon-theme-0.18             fallback theme of the icon theme specification
+highway-1.2.0                       length-agnostic SIMD with runtime dispatch
+htop-3.4.1                          interactive process viewer
+hunspell-1.7.2                      spelling, stemming, morphological analysis and generation
+hwdata-0.399                        hardware identification and configuration data
+hyphen-2.8.8p0                      text hyphenation library
+ibus-1.5.32                         intelligent input bus framework
+icu4c-77.1v0                        International Components for Unicode
+id3lib-3.8.3p10                     library for manipulating ID3v1 and ID3v2 tags
+ijs-0.35p3                          raster image transmission library
+incidenceeditor-25.08.1             KDE PIM incidence editor
+intel-firmware-20260227v0           microcode update binaries for Intel CPUs
+inteldrm-firmware-20250708          firmware binary images for inteldrm(4) driver
+iodbc-3.52.16                       ODBC 3.x driver manager
+iso-codes-4.18.0                    lists of the country, language and currency iso names
+iso8879-1986p1                      character entity sets from ISO 8879:1986 (SGML)
+itinerary-25.08.1                   digital travel assistant
+iwx-firmware-20251021p0             firmware binary images for iwx(4) driver
+jack-0.125.0p5                      low latency sound server
+jansson-2.14.1                      library for manipulating JSON data
+jasper-4.2.8                        reference implementation of JPEG-2000
+jbig2dec-0.19p0                     decoder for JBIG2 monochrome hi-res image compression format
+jbigkit-2.1p0                       lossless image compression library, with lightweight version
+jefferson-0.4.2p3                   JFFS2 filesystem extraction tool
+john-jumbo-1.9.0.1p1                extremely fast password cracker, with community patches
+jpeg-3.1.2v0                        SIMD-accelerated JPEG codec replacement of libjpeg
+json-c-0.18                         JSON implementation in C
+json-glib-1.10.8                    JSON parser for GLib-based libraries and applications
+jsoncpp-1.9.6                       JSON parsing C++ API
+juk-25.08.1                         music collection manager and player for KDE
+kaccounts-providers-25.08.1         online account providers for the KAccounts system
+kactivitymanagerd-6.4.5             core components for the KDE Activity concept
+kaddressbook-25.08.1                addressbook viewer/frontend for KDE
+kalarm-25.08.1                      personal alarm message, command and email scheduler
+kalgebra-25.08.1                    scientific calculator for KDE
+kalzium-25.08.1                     periodic table of elements
+kamera-25.08.1                      KDE digital camera support
+kanagram-25.08.1                    letter order game
+kapman-25.08.1                      pac-man clone
+kapptemplate-25.08.1                app template generator for KDE development
+karchive-5.116.0                    Qt5-based API for manipulating file archives
+kate-25.08.1                        KDE advanced text editor
+katomic-25.08.1                     Sokoban-like logic game
+kauth-5.116.0                       execute actions as privileged user
+kbackup-25.08.1                     KDE backup program with an easy to use user interface
+kbibtex-0.10.0p0                    KDE TeX/LaTeX bibliographies management application
+kblackbox-25.08.1                   blackbox logic game
+kblocks-25.08.1                     falling blocks game
+kbookmarks-5.116.0                  XBEL bookmarks format support for KDE
+kbounce-25.08.1                     ball bouncing game
+kbreakout-25.08.1                   breakout-like game
+kbruch-25.08.1                      KDE calculating fractions practicing app
+kcachegrind-25.08.1                 profile data visualization tool
+kcalc-25.08.1                       KDE versatile math calculator
+kcalutils-25.08.1                   library for the handling of calendar data.
+kcharselect-25.08.1                 KDE character select and clipboard copy
+kcmutils-5.116.0                    utility classes for KDE control modules
+kcodecs-5.116.0                     string encoding/decoding for KDE
+kcolorchooser-25.08.1               KDE color selector
+kcolorpicker-0.3.1                  qt-based color picker with popup menu
+kcompletion-5.116.0                 text completion support for Qt-based apps
+kconfig-5.116.0                     KDE configuration system
+kconfigwidgets-5.116.0              widgets for KDE configuration dialogs
+kcoreaddons-5.116.0                 core KDE extensions to Qt classes
+kcrash-5.116.0                      intercepting and handling application crashes in KDE
+kcron-25.08.1                       KDE-based GUI for cron task scheduler
+kdbusaddons-5.116.0                 KDE convenience classes for DBus
+kde-accessibility-25.08.1           KDE accessibility applications
+kde-admin-25.08.1                   KDE system administrator tools
+kde-cli-tools-6.4.5                 KDE krameworks 5 tools
+kde-dev-scripts-25.08.1             KDE development helper scripts
+kde-dev-utils-25.08.1               KDE development helper utilities
+kde-development-25.08.1             KDE development applications
+kde-games-25.08.1                   KDE games
+kde-gtk-config-6.4.5                GTK2 and GTK3 configurator for KDE
+kde-multimedia-25.08.1              KDE multimedia applications
+kde-network-25.08.1                 KDE network applications
+kde-pim-25.08.1                     KDE PIM personal information managemen applications
+kde-utils-25.08.1                   KDE utilities
+kdebugsettings-25.08.1              application to edit QLoggingCategory
+kdeclarative-5.116.0                integration of QML and KDE workspaces
+kdeconnect-kde-25.08.1p0            KDE app that allows your devices to communicate
+kdecoration-6.4.5                   plugin-based library to create KDE window decorations
+kded-5.116.0                        central daemon of KDE workspaces
+kdeedu-data-25.08.1                 data files for KDE education applications
+kdegraphics-mobipocket-kf5-25.08.1  collection of plugins to handle mobipocket files
+kdenetwork-filesharing-25.08.1      KDE Filesharing via Samba
+kdenlive-25.08.1                    non-linear video editor for KDE
+kdepim-addons-25.08.1               KDE PIM mail related libraries
+kdepim-runtime-25.08.1              KDE PIM mail related libraries
+kdesdk-thumbnailers-25.08.1         KDE thumbnail generators for development files
+kdesu-5.116.0p0                     KDE wrapper over doas commands
+kdf-25.08.1                         KDE storage device statistics
+kdiagram-qt6-3.0.1                  libraries for creating business diagrams
+kdialog-25.08.1                     KDE dialog boxes from shell scripts
+kdiamond-25.08.1                    three-in-a-row game
+kdoctools-5.116.0                   create documentation from DocBook
+kdsoap-2.2.0p0                      Qt-based client-side and server-side SOAP component
+kdsoap-ws-discovery-client-0.4.0p0  KDSoap WS-Discovery client
+keditbookmarks-25.08.1              KDE bookmarks editor
+kermit-9.0.302p1                    serial and network communications package
+kf5-attica-5.116.0                  Open Collaboration Services API implementation
+kf5-kirigami2-5.116.0               QtQuick based components set
+kf5-kwallet-5.116.0p1               KDE safe desktop-wide storage for passwords
+kf6-attica-6.18.0                   Open Collaboration Services API implementation
+kf6-baloo-6.18.0                    KDE file search and metadata handling framework
+kf6-baloo-widgets-25.08.1           widgets for Baloo
+kf6-bluez-qt-6.18.0                 Qt wrapper for BlueZ 5 DBus API
+kf6-breeze-icons-6.18.0             KDE Breeze-style light and dark icon themes
+kf6-dolphin-25.08.1                 KDE File Manager
+kf6-ffmpegthumbs-25.08.1            KDE FFmpeg-based thumbnail generator for video files
+kf6-frameworkintegration-6.18.0     KDE Plasma integration support for Qt-based apps
+kf6-kaccounts-integration-25.08.1   library and QML module for Accounts-SSO and SignOn-SSO
+kf6-karchive-6.18.0                 Qt6-based API for manipulating file archives
+kf6-kauth-6.18.0                    execute actions as privileged user
+kf6-kbookmarks-6.18.0               XBEL bookmarks format support for KDE
+kf6-kcalendarcore-6.18.0            KDE calendar access library
+kf6-kcmutils-6.18.0                 utility classes for KDE control modules
+kf6-kcodecs-6.18.0                  string encoding/decoding for KDE
+kf6-kcolorscheme-6.18.0             classes to read and interact with KColorScheme
+kf6-kcompletion-6.18.0              text completion support for Qt-based apps
+kf6-kconfig-6.18.0                  KDE configuration system
+kf6-kconfigwidgets-6.18.0           widgets for KDE configuration dialogs
+kf6-kcontacts-6.18.0                KDE contacts access library
+kf6-kcoreaddons-6.18.0              core KDE extensions to Qt classes
+kf6-kcrash-6.18.0                   intercepting and handling application crashes in KDE
+kf6-kdav-6.18.0                     KDE PIM DAV protocol support library
+kf6-kdbusaddons-6.18.0              KDE convenience classes for DBus
+kf6-kdeclarative-6.18.0             integration of QML and KDE workspaces
+kf6-kded-6.18.0                     central daemon of KDE workspaces
+kf6-kdegraphics-mobipocket-25.08.1  collection of plugins to handle mobipocket files
 kf6-kdegraphics-thumbnailers-25.08.1 thumbnailers for various graphics file formats
-kf6-kdeplasma-addons-6.4.5p0 KDE Plasma add-ons
-kf6-kdesu-6.18.0    KDE wrapper over doas commands
-kf6-kdnssd-6.18.0   network service discovery using Zeroconf for KDE
-kf6-kdoctools-6.18.0 create documentation from DocBook
-kf6-kfilemetadata-6.18.0 KDE 6 library for extracting text and metadata
-kf6-kglobalaccel-6.18.0 global desktop keyboard shortcuts for KDE
-kf6-kguiaddons-6.18.0 utilities for graphical user interfaces
-kf6-kholidays-6.18.0 holiday calculation library
-kf6-ki18n-6.18.0    KDE gettext-based UI text internationalization
-kf6-kiconthemes-6.18.0 KDE icon GUI utility library
-kf6-kidletime-6.18.0 reporting of idle time of user and system
-kf6-kio-6.18.0      network transparent access to files and data in KDE
-kf6-kio-extras-25.08.1 extra functionality for kioslaves
-kf6-kirigami-6.18.0 QtQuick based components set
-kf6-kitemmodels-6.18.0 KDE item models extending the Qt model-view framework
-kf6-kitemviews-6.18.0 extensions for the Qt model-view framework
-kf6-kjobwidgets-6.18.0 KDE widgets for showing progress of asynchronous jobs
-kf6-knewstuff-6.18.0 KDE framework for sharing additional application data
-kf6-knotifications-6.18.0 KDE desktop notifications framework
-kf6-knotifyconfig-6.18.0 KDE configuration dialog for desktop notifications
-kf6-kpackage-6.18.0p0 installation and loading of content packages in KDE
-kf6-kparts-6.18.0   KDE plugin framework for user interface components
-kf6-kpeople-6.18.0  KDE framework for aggregating and accessing people contacts
-kf6-kplotting-6.18.0 KDE data plotting framework
-kf6-kpty-6.18.0     interfacing with pseudo terminal devices in KDE
-kf6-kquickcharts-6.18.0 QtQuick module providing high-performance charts
-kf6-krunner-6.18.0  KDE framework for Plasma runners
-kf6-ksanecore-25.08.1 KDE SANE (scanner) core library
-kf6-kservice-6.18.0 plugin framework for KDE desktop services
-kf6-kstatusnotifieritem-6.18.0 KDE implementation of Status Notifier Items
-kf6-ksvg-6.18.0     KDE components for handling SVGs
-kf6-ktexteditor-6.18.0 fully featured text editor component
-kf6-ktexttemplate-6.18.0 KDE configuration system
-kf6-ktextwidgets-6.18.0 text editing widgets for KDE
-kf6-kunitconversion-6.18.0 KDE framework for converting physical units
-kf6-kuserfeedback-6.18.0 KDE framework for collecting user feedback
-kf6-kwallet-6.18.0  KDE safe desktop-wide storage for passwords
-kf6-kwayland-6.4.5  Qt API to interact with the wayland-client and -server
-kf6-kwidgetsaddons-6.18.0 large set of KDE widgets
-kf6-kwindowsystem-6.18.0 access to the windowing system for KDE apps
-kf6-kxmlgui-6.18.0  KDE framework for managing menu and toolbar actions
-kf6-libkcddb-25.08.1 KDE CDDB library
-kf6-libkcompactdisc-25.08.1 library for interfacing with CDs
-kf6-libkdcraw-25.08.1 KDE wrapper around the LibRaw library
-kf6-libkdegames-25.08.1 common code and data for many KDE games
-kf6-libkexiv2-25.08.1 EXIV2 Library interface for KDE
-kf6-libkomparediff2-25.08.1 library to compare files and strings
-kf6-libkscreen-6.4.5 screen management library for KDE Plasma Workspaces
-kf6-prison-6.18.0   bar code generator
-kf6-purpose-6.18.0  framework to create integrate services and actions
-kf6-qqc2-desktop-style-6.18.0 QtQuickControls 2 style for painting
-kf6-solid-6.18.0    KDE hardware abstraction layer
-kf6-sonnet-6.18.0   multi-language spell checker for KDE
-kf6-sonnet-aspell-6.18.0 ASpell plugin for Sonnet
-kf6-svgpart-25.08.1 KPart for viewing SVGs
-kf6-syndication-6.18.0 RSS/Atom parser library
-kf6-syntax-highlighting-6.18.0 highlighting engine for structured text and code
-kf6-systemsettings-6.4.5 KDE Plasma control center
-kf6-threadweaver-6.18.0 KDE helper for multithreaded programming
-kfind-25.08.1       KDE dialog boxes from shell scripts
-kfourinline-25.08.1 four-in-a-row board game
-kgamma-6.4.5        KDE monitor calibration tool
-kgeography-25.08.1  geography learning tool for KDE
-kgeotag-1.8.0       stand-alone photo geotagging program
-kget-25.08.1        download manager for KDE
-kglobalaccel-5.116.0p0 global desktop keyboard shortcuts for KDE
-kglobalacceld-6.4.5 KDE global keyboard shortcut daemon
-kgoldrunner-25.08.1 hunt gold, dodge enemies and solve puzzles
-kgpg-25.08.1        KDE interface to GnuPG
-kguiaddons-5.116.0  Utilities for graphical user interfaces
-khangman-25.08.1    KDE hangman game
-khelpcenter-25.08.1 KDE help center
-ki18n-5.116.0p0     KDE Gettext-based UI text internationalization
-kiconthemes-5.116.0 KDE icon GUI utility library
-kidentitymanagement-25.08.1 KDE pim identities
-kig-25.08.1         KDE geometric constructions explorer
-kigo-25.08.1        Go board game
-killbots-25.08.1    simple game of evading killer robots
-kimageannotator-0.7.1 tool for annotating images
-kimagemapeditor-25.08.1 KDE-based HTML image map editor
-kimap-25.08.1       job-based API for interacting with IMAP servers
-kinfocenter-6.4.5   core components for the KDE Activity concept
-kio-5.116.0         network transparent access to files and data in KDE
-kirigami-addons-1.9.0 add-ons for the kirigami frameworks
-kirigami-gallery-25.08.1 kirigami component gallery application
-kiriki-25.08.1      Yahtzee-like dice game
-kitemviews-5.116.0  extensions for the Qt model-view framework
-kiten-25.08.1       Japanese reference tool for KDE
-kitinerary-25.08.1  KDE itinerary data model and itinerary extraction library
-kjobwidgets-5.116.0 KDE widgets for showing progress of asynchronous jobs
-kjumpingcube-25.08.1 territory capture game
-kldap-25.08.1       LDAP access API for KDE
-kleopatra-25.08.1   certificate manager and a universal crypto GUI
-klettres-25.08.1    alphabet learning application for KDE
-klickety-25.08.1    adaptation of clickomania game
-klines-25.08.1      KDE version of Color Lines game
-kmag-25.08.1        KDE screen magnifier
-kmahjongg-25.08.1   Mah Jongg four players board game for KDE5
-kmail-25.08.1       KDE PIM email client
-kmail-account-wizard-25.08.1 KMail account wizard
-kmailtransport-25.08.1 mail transport service
-kmbox-25.08.1       library for accessing mail storages in MBox format
-kmenuedit-6.4.5     KDE menu editor for plasma workspaces
-kmime-25.08.1       library for handling mail messages and newsgroup articles
-kmines-25.08.1      Minesweeper-like Game
-kmix-25.08.1        sound channel mixer and volume control
-kmousetool-25.08.1  KDE mouse clicker for accessibility users
-kmouth-25.08.1      speech tool for mute persons for KDE
-kmplot-25.08.1      mathematical function plotter for KDE
-knavalbattle-25.08.1 battle ship game
-knetwalk-25.08.1    network construction game
-knewstuff-5.116.0   KDE framework for sharing additional application data
-knotifications-5.116.0 KDE desktop notifications framework
-knotifyconfig-5.116.0 KDE configuration dialog for desktop notifications
-kolf-25.08.1        miniature golf
-kollision-25.08.1   simple ball dodging game
-kolourpaint-25.08.1 KDE raster image editor
-kompare-25.08.1     file compare utility for KDE
-kongress-25.08.1    companion application for conference attendees
-konqueror-25.08.1   KDE File Manager & Web Browser
-konquest-25.08.1    galactic strategy game
-konsole-25.08.1p0   KDE terminal emulator
-kontact-25.08.1     documentenal information management suite
-kontactinterface-25.08.1 KDE PIM kontact plugin interface library
-kontrast-25.08.1    color contrast checker
-konversation-25.08.1 IRC client for KDE
-kopeninghours-25.08.1 library for parsing and evaluating OSM data
-korganizer-25.08.1  calendar and scheduling component of kontact
-kosmindoormap-25.08.1p0 OSM multi-floor indoor map renderer
-kpackage-5.116.0    installation and loading of content packages in KDE
-kparts-5.116.0      KDE plugin framework for user interface components
-kpimtextedit-25.08.1 textedit with PIM-specific features
-kpipewire-6.4.5     components relating to pipewire use in Plasma
-kpkpass-25.08.1     KDE PIM Apple wallet file support library
-kplotting-5.116.0   KDE data plotting framework
-kpty-5.116.0        interfacing with pseudo terminal devices in KDE
-kpublictransport-25.08.1p0 library for accessing realtime public transport data
-kqtquickcharts-25.08.1 QtQuick plugin to render interactive charts
-kquickimageeditor-0.4.0p0 KDE image editing components
-kreversi-25.08.1    reversi board game
-kruler-25.08.1      screen ruler for KDE
-kscreen-6.4.5       KDEs screen management software
-kscreenlocker-6.4.5 library for secure lock screen architecture
-kservice-5.116.0    plugin framework for KDE desktop services
-ksh93-1.0.10p0v0    AT&T Korn Shell
-kshisen-25.08.1     Shisen-Sho Mahjongg-like game
-ksirk-25.08.1       world domination strategy game
-ksmtp-25.08.1       KDE PIM SMTP library
-ksnakeduel-25.08.1  Tron-like game
-kspaceduel-25.08.1  2D space arcade game for KDE
-ksquares-25.08.1    connect the dots to create squares game
-ksshaskpass-6.4.5   KDE Plasma ssh-add helper
-ksudoku-25.08.1     sudoku game
-ksystemlog-25.08.1  system log viewer
-ksystemstats-6.4.5  plugin based system monitoring daemon
-kteatime-25.08.1    simple timer tray app for KDE
-ktextaddons-1.7.1   various text handling addons
-ktexteditor-5.116.0 fully featured text editor component
-ktextwidgets-5.116.0 text editing widgets for KDE
-ktimer-25.08.1      graphical timer based task execution for KDE
-ktnef-25.08.1       KDE PIM TNEF library
-ktorrent-25.08.1    BitTorrent Client
-ktouch-25.08.1      KDE typing learning tool
-ktuberling-25.08.1  picture game for children
-kturtle-25.08.1     KDE educational Logo programming environment
+kf6-kdeplasma-addons-6.4.5p0        KDE Plasma add-ons
+kf6-kdesu-6.18.0                    KDE wrapper over doas commands
+kf6-kdnssd-6.18.0                   network service discovery using Zeroconf for KDE
+kf6-kdoctools-6.18.0                create documentation from DocBook
+kf6-kfilemetadata-6.18.0            KDE 6 library for extracting text and metadata
+kf6-kglobalaccel-6.18.0             global desktop keyboard shortcuts for KDE
+kf6-kguiaddons-6.18.0               utilities for graphical user interfaces
+kf6-kholidays-6.18.0                holiday calculation library
+kf6-ki18n-6.18.0                    KDE gettext-based UI text internationalization
+kf6-kiconthemes-6.18.0              KDE icon GUI utility library
+kf6-kidletime-6.18.0                reporting of idle time of user and system
+kf6-kio-6.18.0                      network transparent access to files and data in KDE
+kf6-kio-extras-25.08.1              extra functionality for kioslaves
+kf6-kirigami-6.18.0                 QtQuick based components set
+kf6-kitemmodels-6.18.0              KDE item models extending the Qt model-view framework
+kf6-kitemviews-6.18.0               extensions for the Qt model-view framework
+kf6-kjobwidgets-6.18.0              KDE widgets for showing progress of asynchronous jobs
+kf6-knewstuff-6.18.0                KDE framework for sharing additional application data
+kf6-knotifications-6.18.0           KDE desktop notifications framework
+kf6-knotifyconfig-6.18.0            KDE configuration dialog for desktop notifications
+kf6-kpackage-6.18.0p0               installation and loading of content packages in KDE
+kf6-kparts-6.18.0                   KDE plugin framework for user interface components
+kf6-kpeople-6.18.0                  KDE framework for aggregating and accessing people contacts
+kf6-kplotting-6.18.0                KDE data plotting framework
+kf6-kpty-6.18.0                     interfacing with pseudo terminal devices in KDE
+kf6-kquickcharts-6.18.0             QtQuick module providing high-performance charts
+kf6-krunner-6.18.0                  KDE framework for Plasma runners
+kf6-ksanecore-25.08.1               KDE SANE (scanner) core library
+kf6-kservice-6.18.0                 plugin framework for KDE desktop services
+kf6-kstatusnotifieritem-6.18.0      KDE implementation of Status Notifier Items
+kf6-ksvg-6.18.0                     KDE components for handling SVGs
+kf6-ktexteditor-6.18.0              fully featured text editor component
+kf6-ktexttemplate-6.18.0            KDE configuration system
+kf6-ktextwidgets-6.18.0             text editing widgets for KDE
+kf6-kunitconversion-6.18.0          KDE framework for converting physical units
+kf6-kuserfeedback-6.18.0            KDE framework for collecting user feedback
+kf6-kwallet-6.18.0                  KDE safe desktop-wide storage for passwords
+kf6-kwayland-6.4.5                  Qt API to interact with the wayland-client and -server
+kf6-kwidgetsaddons-6.18.0           large set of KDE widgets
+kf6-kwindowsystem-6.18.0            access to the windowing system for KDE apps
+kf6-kxmlgui-6.18.0                  KDE framework for managing menu and toolbar actions
+kf6-libkcddb-25.08.1                KDE CDDB library
+kf6-libkcompactdisc-25.08.1         library for interfacing with CDs
+kf6-libkdcraw-25.08.1               KDE wrapper around the LibRaw library
+kf6-libkdegames-25.08.1             common code and data for many KDE games
+kf6-libkexiv2-25.08.1               EXIV2 Library interface for KDE
+kf6-libkomparediff2-25.08.1         library to compare files and strings
+kf6-libkscreen-6.4.5                screen management library for KDE Plasma Workspaces
+kf6-prison-6.18.0                   bar code generator
+kf6-purpose-6.18.0                  framework to create integrate services and actions
+kf6-qqc2-desktop-style-6.18.0       QtQuickControls 2 style for painting
+kf6-solid-6.18.0                    KDE hardware abstraction layer
+kf6-sonnet-6.18.0                   multi-language spell checker for KDE
+kf6-sonnet-aspell-6.18.0            ASpell plugin for Sonnet
+kf6-svgpart-25.08.1                 KPart for viewing SVGs
+kf6-syndication-6.18.0              RSS/Atom parser library
+kf6-syntax-highlighting-6.18.0      highlighting engine for structured text and code
+kf6-systemsettings-6.4.5            KDE Plasma control center
+kf6-threadweaver-6.18.0             KDE helper for multithreaded programming
+kfind-25.08.1                       KDE dialog boxes from shell scripts
+kfourinline-25.08.1                 four-in-a-row board game
+kgamma-6.4.5                        KDE monitor calibration tool
+kgeography-25.08.1                  geography learning tool for KDE
+kgeotag-1.8.0                       stand-alone photo geotagging program
+kget-25.08.1                        download manager for KDE
+kglobalaccel-5.116.0p0              global desktop keyboard shortcuts for KDE
+kglobalacceld-6.4.5                 KDE global keyboard shortcut daemon
+kgoldrunner-25.08.1                 hunt gold, dodge enemies and solve puzzles
+kgpg-25.08.1                        KDE interface to GnuPG
+kguiaddons-5.116.0                  Utilities for graphical user interfaces
+khangman-25.08.1                    KDE hangman game
+khelpcenter-25.08.1                 KDE help center
+ki18n-5.116.0p0                     KDE Gettext-based UI text internationalization
+kiconthemes-5.116.0                 KDE icon GUI utility library
+kidentitymanagement-25.08.1         KDE pim identities
+kig-25.08.1                         KDE geometric constructions explorer
+kigo-25.08.1                        Go board game
+killbots-25.08.1                    simple game of evading killer robots
+kimageannotator-0.7.1               tool for annotating images
+kimagemapeditor-25.08.1             KDE-based HTML image map editor
+kimap-25.08.1                       job-based API for interacting with IMAP servers
+kinfocenter-6.4.5                   core components for the KDE Activity concept
+kio-5.116.0                         network transparent access to files and data in KDE
+kirigami-addons-1.9.0               add-ons for the kirigami frameworks
+kirigami-gallery-25.08.1            kirigami component gallery application
+kiriki-25.08.1                      Yahtzee-like dice game
+kitemviews-5.116.0                  extensions for the Qt model-view framework
+kiten-25.08.1                       Japanese reference tool for KDE
+kitinerary-25.08.1                  KDE itinerary data model and itinerary extraction library
+kjobwidgets-5.116.0                 KDE widgets for showing progress of asynchronous jobs
+kjumpingcube-25.08.1                territory capture game
+kldap-25.08.1                       LDAP access API for KDE
+kleopatra-25.08.1                   certificate manager and a universal crypto GUI
+klettres-25.08.1                    alphabet learning application for KDE
+klickety-25.08.1                    adaptation of clickomania game
+klines-25.08.1                      KDE version of Color Lines game
+kmag-25.08.1                        KDE screen magnifier
+kmahjongg-25.08.1                   Mah Jongg four players board game for KDE5
+kmail-25.08.1                       KDE PIM email client
+kmail-account-wizard-25.08.1        KMail account wizard
+kmailtransport-25.08.1              mail transport service
+kmbox-25.08.1                       library for accessing mail storages in MBox format
+kmenuedit-6.4.5                     KDE menu editor for plasma workspaces
+kmime-25.08.1                       library for handling mail messages and newsgroup articles
+kmines-25.08.1                      Minesweeper-like Game
+kmix-25.08.1                        sound channel mixer and volume control
+kmousetool-25.08.1                  KDE mouse clicker for accessibility users
+kmouth-25.08.1                      speech tool for mute persons for KDE
+kmplot-25.08.1                      mathematical function plotter for KDE
+knavalbattle-25.08.1                battle ship game
+knetwalk-25.08.1                    network construction game
+knewstuff-5.116.0                   KDE framework for sharing additional application data
+knotifications-5.116.0              KDE desktop notifications framework
+knotifyconfig-5.116.0               KDE configuration dialog for desktop notifications
+kolf-25.08.1                        miniature golf
+kollision-25.08.1                   simple ball dodging game
+kolourpaint-25.08.1                 KDE raster image editor
+kompare-25.08.1                     file compare utility for KDE
+kongress-25.08.1                    companion application for conference attendees
+konqueror-25.08.1                   KDE File Manager & Web Browser
+konquest-25.08.1                    galactic strategy game
+konsole-25.08.1p0                   KDE terminal emulator
+kontact-25.08.1                     documentenal information management suite
+kontactinterface-25.08.1            KDE PIM kontact plugin interface library
+kontrast-25.08.1                    color contrast checker
+konversation-25.08.1                IRC client for KDE
+kopeninghours-25.08.1               library for parsing and evaluating OSM data
+korganizer-25.08.1                  calendar and scheduling component of kontact
+kosmindoormap-25.08.1p0             OSM multi-floor indoor map renderer
+kpackage-5.116.0                    installation and loading of content packages in KDE
+kparts-5.116.0                      KDE plugin framework for user interface components
+kpimtextedit-25.08.1                textedit with PIM-specific features
+kpipewire-6.4.5                     components relating to pipewire use in Plasma
+kpkpass-25.08.1                     KDE PIM Apple wallet file support library
+kplotting-5.116.0                   KDE data plotting framework
+kpty-5.116.0                        interfacing with pseudo terminal devices in KDE
+kpublictransport-25.08.1p0          library for accessing realtime public transport data
+kqtquickcharts-25.08.1              QtQuick plugin to render interactive charts
+kquickimageeditor-0.4.0p0           KDE image editing components
+kreversi-25.08.1                    reversi board game
+kruler-25.08.1                      screen ruler for KDE
+kscreen-6.4.5                       KDEs screen management software
+kscreenlocker-6.4.5                 library for secure lock screen architecture
+kservice-5.116.0                    plugin framework for KDE desktop services
+ksh93-1.0.10p0v0                    AT&T Korn Shell
+kshisen-25.08.1                     Shisen-Sho Mahjongg-like game
+ksirk-25.08.1                       world domination strategy game
+ksmtp-25.08.1                       KDE PIM SMTP library
+ksnakeduel-25.08.1                  Tron-like game
+kspaceduel-25.08.1                  2D space arcade game for KDE
+ksquares-25.08.1                    connect the dots to create squares game
+ksshaskpass-6.4.5                   KDE Plasma ssh-add helper
+ksudoku-25.08.1                     sudoku game
+ksystemlog-25.08.1                  system log viewer
+ksystemstats-6.4.5                  plugin based system monitoring daemon
+kteatime-25.08.1                    simple timer tray app for KDE
+ktextaddons-1.7.1                   various text handling addons
+ktexteditor-5.116.0                 fully featured text editor component
+ktextwidgets-5.116.0                text editing widgets for KDE
+ktimer-25.08.1                      graphical timer based task execution for KDE
+ktnef-25.08.1                       KDE PIM TNEF library
+ktorrent-25.08.1                    BitTorrent Client
+ktouch-25.08.1                      KDE typing learning tool
+ktuberling-25.08.1                  picture game for children
+kturtle-25.08.1                     KDE educational Logo programming environment
 kubrick-25.08.1     3-D Game based on Rubiks Cube
 kunifiedpush-25.04.3 UnifiedPush client components
 kwalletmanager-25.08.1 KDE password wallet manager
