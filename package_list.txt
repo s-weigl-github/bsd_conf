@@ -499,160 +499,160 @@ ktorrent-25.08.1                    BitTorrent Client
 ktouch-25.08.1                      KDE typing learning tool
 ktuberling-25.08.1                  picture game for children
 kturtle-25.08.1                     KDE educational Logo programming environment
-kubrick-25.08.1     3-D Game based on Rubiks Cube
-kunifiedpush-25.04.3 UnifiedPush client components
-kwalletmanager-25.08.1 KDE password wallet manager
-kwave-25.08.1       sound editor for KDE
-kwidgetsaddons-5.116.0 large set of KDE widgets
-kwin-6.4.5          Wayland window manager for KDE Plasma Desktops
-kwin-x11-6.4.5      X11 window manager for KDE Plasma Desktops
-kwindowsystem-5.116.0 access to the windowing system for KDE apps
-kwordquiz-25.08.1   general purpose flash card program for KDE
-kwrited-6.4.5       KDE daemon listening for wall and write messages
-kxmlgui-5.116.0     KDE framework for managing menu and toolbar actions
-ladspa-1.17p0       Linux Audio Developer's Simple Plugin API
-lame-3.100p2        lame ain't an MP3 encoder
-layer-shell-qt-6.4.5 Qt Wayland wl-layer-shell protocol component
-lcdf-typetools-2.108p0 tools to manipulate font files
-lcms2-2.17          color management library
-lensfun-0.3.3p1     library to adjust for photographic lens characteristics
-lerc-4.0.0          Limited Error Raster Compression
-libQuotient-0.9.2   Qt6 library for writing cross-platform Matrix clients
-libaccounts-glib-1.26p4 GLib-based client library for the accounts database
-libaccounts-qt-1.17p0 Qt-based client library for the accounts database
-libaec-1.1.4        fast lossless compression, implementing Golomb-Rice coding
-libao-1.2.0p2       portable audio output library
-libarchive-3.8.6    multi-format archive and compression library
-libass-0.17.3       portable ASS/SSA subtitle renderer
-libassuan-2.5.5p0   IPC library used by GnuPG and gpgme
-libaudiofile-0.3.6p7 SGI audiofile library clone
-libavif-1.3.0       library for encoding and decoding .avif files
-libb2-0.98.1v0      library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
-libbluray-1.3.4     library supporting Blu-ray playback
-libbs2b-3.1.0p6     Bauer stereophonic-to-binaural DSP
-libcanberra-0.30p7  implementation of the Freedesktop sound theme spec.
-libcares-1.34.6     ????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
-libcddb-1.3.2p1     library to access data on a CDDB server
-libcdio-2.2.0       compact disk input and control library
-libcdio-paranoia-2.0.2 fork of cdparanoia that uses libcdio for CDROM access
-libcerf-1.13p0      implementation of complex error functions
-libdaemon-0.14p1    lightweight C library that eases the writing of daemons
-libdbusmenu-16.04.0p5 D-Bus menu implementation for Gtk
-libde265-1.0.15     open H.265 video codec implementation
-libdeflate-1.24     optimized library for DEFLATE/zlib/gzip (de)compression
-libdisplay-info-0.3.0 EDID and DisplayID library
-libdmtx-0.7.5       library for handling data matrix barcodes
-libdvbpsi-1.3.3     library for decoding/generating MPEG TS/DVB PSI tables
-libdvdcss-1.4.3     descramble scrambled DVDs
-libdvdnav-6.1.1v0   DVD navigation library
-libdvdread-6.1.3    accessing DVD files
-libebml-1.4.4       Extensible Binary Meta Language library
-libebur128-1.2.6    library implementing the EBU R128 loudness standard
-libei-1.5.0         library for Emulated Input
-libevent-2.1.12p3   event notification library
-libexif-0.6.25p0    extract digital camera info tags from JPEG images
-libfakekey-0.3p0    library for converting characters to X key-presses
-libffi-3.5.2p0      Foreign Function Interface
-libgcrypt-1.11.2    crypto library based on code used in GnuPG
-libgit2-1.9.2       Git linkable library
-libgpg-error-1.55   error codes for GnuPG related software
-libgphoto-2.5.32p0  digital camera library
-libgravatar-25.08.1 libraries provides gravatar support
-libgsf-1.14.53p0    GNOME Structured File library
-libgtop2-2.41.3p3   portable library for obtaining system information
-libhandy-1.8.3p0    building blocks for modern adaptive GNOME apps
-libheif-1.19.7p0    HEIF and AVIF file format decoder and encoder
-libical-3.0.20      implementation of the iCalendar protocols and data units
-libiconv-1.17       character set conversion library
-libid3tag-0.15.1bp6 library for reading ID3 tags
-libidn-1.43         internationalized string handling
-libidn2-2.3.0p0     implementation of IDNA2008 internationalized domain names
-libinih-58          simple .INI file parser in C
-libinotify-20240724 kevent based inotify
-libinput-openbsd-1.26.2p1 wscons(4) and kqueue(2) based port of libinput
-libjxl-0.11.1       JPEG XL image format reference implementation
-libkdcraw-kf5-25.08.1 KDE wrapper around the LibRaw library
-libkdepim-25.08.1   library for common kdepim apps
-libkeduvocdocument-25.08.1 library for reading and writing vocabulary
-libkgapi-25.08.1    KDE-based library for accessing various Google services
-libkleo-25.08.1     certificate manager for KDE
-libkmahjongg-25.08.1 common sets for games using Mahjongg tiles
-libksane-25.08.1    KDE SANE (scanner) wrapper library
-libksba-1.6.7p0     X.509 library
-libksieve-25.08.1   sieve script library
-libksysguard-6.4.5  KSysGuard library
-libktorrent-25.08.1 KTorrent engine
-libltdl-2.4.2p3     GNU libtool system independent dlopen wrapper
-libmad-0.15.1bp7    high-quality MPEG audio decoder
-libmagic-5.46p0     library to determine file type
-libmatroska-1.7.1   extensible open standard audio/video container library
-libmaxminddb-1.12.2p1 library for MaxMind GeoIP2/GeoLite2 IP geolocation databases
-libmcrypt-2.5.8p3   interface to access block/stream encryption algorithms
-libmms-0.6.2p6      library for parsing mms:// and mmsh:// type network streams
-libmpc-1.2.1        arbitrary-precision complex numbers math library
-libmtp-1.1.22       Media Transfer Protocol (MTP) implementation
-libmusicbrainz5-5.1.0 library for audio metadata lookup (v5)
-libmysofa-1.3.3     SOFA (Spatially Oriented Format for Acoustics) file reader
-libnet-1.1.6v0      raw IP packet construction library
-libnettle-3.10.2    cryptographic library
-libnfs-5.0.2        client library for accessing NFS
-libnotify-0.8.7     send desktop notifications to a notification daemon
-libnova-0.15.0p1    astronomic computations as a library
-libogg-1.3.6        Ogg bitstream library
-libpaper-2.2.6      library for handling paper characteristics
-libphonenumber-9.0.15 C++ library to parse/format/validate phone numbers
-libpipewire-1.4.8   low-level multimedia framework - libraries
-libplacebo-6.338.2p0 reusable library for GPU-accelerated video/image rendering
-libplasma-6.4.5     Plasma library and runtime components
-libproxy-0.5.11     library for automatic proxy configuration management
-libpsl-0.21.1p1     public suffix list library
-libqaccessibilityclient-0.6.0p0 Qt-based library for writing accessibility apps
-libqalculate-5.5.1p0 applied math library and CLI calculator
-libqrencode-4.1.1   library for encoding data in a QR Code symbol
-libraw-0.21.4       library for reading RAW files
-librsvg-2.61.1v0    SAX-based render library for SVG files
-libsamplerate-0.2.2p0 audio sample rate conversion library
-libsecret-0.21.7    library for storing and retrieving passwords and secrets
-libshout-2.4.5      library for communicating with an icecast server
-libsigc++-2.12.1p0  callback framework for C++
-libsigsegv-2.14p0   library for handling page faults in user mode
-libslang-2.3.3p0    stack-based interpreter for terminal applications
-libsmb2-6.2.0       userspace client library for accessing SMB2/SMB3 shares
-libsmi-0.5.0        library/tools (incl smilint) to access SMI MIB information
-libsndfile-1.2.2p0  library to handle various audio file formats
-libsoup3-3.6.5p0    HTTP client/server library for GNOME
-libsoxr-0.1.3p0     fast and high quality sample-rate conversion (SoX Resampler)
-libspectre-0.2.12p2 library for rendering Postscript documents
-libspectrum-1.5.0p1 ZX Spectrum emulator file format library
-libssh-0.11.3       C library implementing server and client side SSH
-libssh2-1.11.0      ?????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
-libtalloc-2.4.3     hierarchical memory pool system with destructors
-libtar-1.2.20       C library for manipulating tar files
-libtasn1-4.20.0p0   Abstract Syntax Notation One structure parser library
-libtextstyle-0.23.1 text styling library
-libtheora-1.2.0v0   open video codec
-libtool-2.4.2p3     generic shared library support script
-libudev-openbsd-20230921p0 library to access udev device information
-libudfread-1.1.2    library for reading UDF from raw devices and image files
-libunbound-1.24.2   validating DNS resolver library
-libunibreak-5.1     implementation of the line and word breaking
-libunistring-0.9.7  manipulate Unicode strings
-libusb-compat-0.1.5p1 libusb-0.1 compatibility layer for libusb1
-libusb1-1.0.29      library for USB device access from userspace
-libuv-1.51.0p0      multi-platform library for asynchronous I/O
-libv4l-1.24.1       libv4l userspace library
-libvidstab-1.1.0    video stabilization library
-libvncserver-0.9.15 library for easy implementation of a VNC server
-libvorbis-1.3.7     audio compression codec library
-libvpx-1.15.2v0     Google VP8/VP9 video codec
-libwebp-1.6.0p0     Google WebP image format conversion tool
-libwnck3-43.3       window navigator construction kit
-libxfce4ui-4.20.2   Xfce4 widget library
-libxfce4util-4.20.1 Xfce4 basic utility library
-libxfce4windowing-4.20.4 Xfce4 windowing library
-libxkbcommon-1.11.0 library to handle keyboard descriptions
-libxklavier-5.4p1   utility library for XKB
-libxml-2.14.6       XML parsing library
+kubrick-25.08.1                     3-D Game based on Rubiks Cube
+kunifiedpush-25.04.3                UnifiedPush client components
+kwalletmanager-25.08.1              KDE password wallet manager
+kwave-25.08.1                       sound editor for KDE
+kwidgetsaddons-5.116.0              large set of KDE widgets
+kwin-6.4.5                          Wayland window manager for KDE Plasma Desktops
+kwin-x11-6.4.5                      X11 window manager for KDE Plasma Desktops
+kwindowsystem-5.116.0               access to the windowing system for KDE apps
+kwordquiz-25.08.1                   general purpose flash card program for KDE
+kwrited-6.4.5                       KDE daemon listening for wall and write messages
+kxmlgui-5.116.0                     KDE framework for managing menu and toolbar actions
+ladspa-1.17p0                       Linux Audio Developer's Simple Plugin API
+lame-3.100p2                        lame ain't an MP3 encoder
+layer-shell-qt-6.4.5                Qt Wayland wl-layer-shell protocol component
+lcdf-typetools-2.108p0              tools to manipulate font files
+lcms2-2.17                          color management library
+lensfun-0.3.3p1                     library to adjust for photographic lens characteristics
+lerc-4.0.0                          Limited Error Raster Compression
+libQuotient-0.9.2                   Qt6 library for writing cross-platform Matrix clients
+libaccounts-glib-1.26p4             GLib-based client library for the accounts database
+libaccounts-qt-1.17p0               Qt-based client library for the accounts database
+libaec-1.1.4                        fast lossless compression, implementing Golomb-Rice coding
+libao-1.2.0p2                       portable audio output library
+libarchive-3.8.6                    multi-format archive and compression library
+libass-0.17.3                       portable ASS/SSA subtitle renderer
+libassuan-2.5.5p0                   IPC library used by GnuPG and gpgme
+libaudiofile-0.3.6p7                SGI audiofile library clone
+libavif-1.3.0                       library for encoding and decoding .avif files
+libb2-0.98.1v0                      library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
+libbluray-1.3.4                     library supporting Blu-ray playback
+libbs2b-3.1.0p6                     Bauer stereophonic-to-binaural DSP
+libcanberra-0.30p7                  implementation of the Freedesktop sound theme spec.
+libcares-1.34.6                     ???
+libcddb-1.3.2p1                     library to access data on a CDDB server
+libcdio-2.2.0                       compact disk input and control library
+libcdio-paranoia-2.0.2              fork of cdparanoia that uses libcdio for CDROM access
+libcerf-1.13p0                      implementation of complex error functions
+libdaemon-0.14p1                    lightweight C library that eases the writing of daemons
+libdbusmenu-16.04.0p5               D-Bus menu implementation for Gtk
+libde265-1.0.15                     open H.265 video codec implementation
+libdeflate-1.24                     optimized library for DEFLATE/zlib/gzip (de)compression
+libdisplay-info-0.3.0               EDID and DisplayID library
+libdmtx-0.7.5                       library for handling data matrix barcodes
+libdvbpsi-1.3.3                     library for decoding/generating MPEG TS/DVB PSI tables
+libdvdcss-1.4.3                     descramble scrambled DVDs
+libdvdnav-6.1.1v0                   DVD navigation library
+libdvdread-6.1.3                    accessing DVD files
+libebml-1.4.4                       Extensible Binary Meta Language library
+libebur128-1.2.6                    library implementing the EBU R128 loudness standard
+libei-1.5.0                         library for Emulated Input
+libevent-2.1.12p3                   event notification library
+libexif-0.6.25p0                    extract digital camera info tags from JPEG images
+libfakekey-0.3p0                    library for converting characters to X key-presses
+libffi-3.5.2p0                      Foreign Function Interface
+libgcrypt-1.11.2                    crypto library based on code used in GnuPG
+libgit2-1.9.2                       Git linkable library
+libgpg-error-1.55                   error codes for GnuPG related software
+libgphoto-2.5.32p0                  digital camera library
+libgravatar-25.08.1                 libraries provides gravatar support
+libgsf-1.14.53p0                    GNOME Structured File library
+libgtop2-2.41.3p3                   portable library for obtaining system information
+libhandy-1.8.3p0                    building blocks for modern adaptive GNOME apps
+libheif-1.19.7p0                    HEIF and AVIF file format decoder and encoder
+libical-3.0.20                      implementation of the iCalendar protocols and data units
+libiconv-1.17                       character set conversion library
+libid3tag-0.15.1bp6                 library for reading ID3 tags
+libidn-1.43                         internationalized string handling
+libidn2-2.3.0p0                     implementation of IDNA2008 internationalized domain names
+libinih-58                          simple .INI file parser in C
+libinotify-20240724                 kevent based inotify
+libinput-openbsd-1.26.2p1           wscons(4) and kqueue(2) based port of libinput
+libjxl-0.11.1                       JPEG XL image format reference implementation
+libkdcraw-kf5-25.08.1               KDE wrapper around the LibRaw library
+libkdepim-25.08.1                   library for common kdepim apps
+libkeduvocdocument-25.08.1          library for reading and writing vocabulary
+libkgapi-25.08.1                    KDE-based library for accessing various Google services
+libkleo-25.08.1                     certificate manager for KDE
+libkmahjongg-25.08.1                common sets for games using Mahjongg tiles
+libksane-25.08.1                    KDE SANE (scanner) wrapper library
+libksba-1.6.7p0                     X.509 library
+libksieve-25.08.1                   sieve script library
+libksysguard-6.4.5                  KSysGuard library
+libktorrent-25.08.1                 KTorrent engine
+libltdl-2.4.2p3                     GNU libtool system independent dlopen wrapper
+libmad-0.15.1bp7                    high-quality MPEG audio decoder
+libmagic-5.46p0                     library to determine file type
+libmatroska-1.7.1                   extensible open standard audio/video container library
+libmaxminddb-1.12.2p1               library for MaxMind GeoIP2/GeoLite2 IP geolocation databases
+libmcrypt-2.5.8p3                   interface to access block/stream encryption algorithms
+libmms-0.6.2p6                      library for parsing mms:// and mmsh:// type network streams
+libmpc-1.2.1                        arbitrary-precision complex numbers math library
+libmtp-1.1.22                       Media Transfer Protocol (MTP) implementation
+libmusicbrainz5-5.1.0               library for audio metadata lookup (v5)
+libmysofa-1.3.3                     SOFA (Spatially Oriented Format for Acoustics) file reader
+libnet-1.1.6v0                      raw IP packet construction library
+libnettle-3.10.2                    cryptographic library
+libnfs-5.0.2                        client library for accessing NFS
+libnotify-0.8.7                     send desktop notifications to a notification daemon
+libnova-0.15.0p1                    astronomic computations as a library
+libogg-1.3.6                        Ogg bitstream library
+libpaper-2.2.6                      library for handling paper characteristics
+libphonenumber-9.0.15               C++ library to parse/format/validate phone numbers
+libpipewire-1.4.8                   low-level multimedia framework - libraries
+libplacebo-6.338.2p0                reusable library for GPU-accelerated video/image rendering
+libplasma-6.4.5                     Plasma library and runtime components
+libproxy-0.5.11                     library for automatic proxy configuration management
+libpsl-0.21.1p1                     public suffix list library
+libqaccessibilityclient-0.6.0p0     Qt-based library for writing accessibility apps
+libqalculate-5.5.1p0                applied math library and CLI calculator
+libqrencode-4.1.1                   library for encoding data in a QR Code symbol
+libraw-0.21.4                       library for reading RAW files
+librsvg-2.61.1v0                    SAX-based render library for SVG files
+libsamplerate-0.2.2p0               audio sample rate conversion library
+libsecret-0.21.7                    library for storing and retrieving passwords and secrets
+libshout-2.4.5                      library for communicating with an icecast server
+libsigc++-2.12.1p0                  callback framework for C++
+libsigsegv-2.14p0                   library for handling page faults in user mode
+libslang-2.3.3p0                    stack-based interpreter for terminal applications
+libsmb2-6.2.0                       userspace client library for accessing SMB2/SMB3 shares
+libsmi-0.5.0                        library/tools (incl smilint) to access SMI MIB information
+libsndfile-1.2.2p0                  library to handle various audio file formats
+libsoup3-3.6.5p0                    HTTP client/server library for GNOME
+libsoxr-0.1.3p0                     fast and high quality sample-rate conversion (SoX Resampler)
+libspectre-0.2.12p2                 library for rendering Postscript documents
+libspectrum-1.5.0p1                 ZX Spectrum emulator file format library
+libssh-0.11.3                       C library implementing server and client side SSH
+libssh2-1.11.0                      ???
+libtalloc-2.4.3                     hierarchical memory pool system with destructors
+libtar-1.2.20                       C library for manipulating tar files
+libtasn1-4.20.0p0                   Abstract Syntax Notation One structure parser library
+libtextstyle-0.23.1                 text styling library
+libtheora-1.2.0v0                   open video codec
+libtool-2.4.2p3                     generic shared library support script
+libudev-openbsd-20230921p0          library to access udev device information
+libudfread-1.1.2                    library for reading UDF from raw devices and image files
+libunbound-1.24.2                   validating DNS resolver library
+libunibreak-5.1                     implementation of the line and word breaking
+libunistring-0.9.7                  manipulate Unicode strings
+libusb-compat-0.1.5p1               libusb-0.1 compatibility layer for libusb1
+libusb1-1.0.29                      library for USB device access from userspace
+libuv-1.51.0p0                      multi-platform library for asynchronous I/O
+libv4l-1.24.1                       libv4l userspace library
+libvidstab-1.1.0                    video stabilization library
+libvncserver-0.9.15                 library for easy implementation of a VNC server
+libvorbis-1.3.7                     audio compression codec library
+libvpx-1.15.2v0                     Google VP8/VP9 video codec
+libwebp-1.6.0p0                     Google WebP image format conversion tool
+libwnck3-43.3                       window navigator construction kit
+libxfce4ui-4.20.2                   Xfce4 widget library
+libxfce4util-4.20.1                 Xfce4 basic utility library
+libxfce4windowing-4.20.4            Xfce4 windowing library
+libxkbcommon-1.11.0                 library to handle keyboard descriptions
+libxklavier-5.4p1                   utility library for XKB
+libxml-2.14.6                       XML parsing library
 libxslt-1.1.43p1    XSLT C Library for GNOME
 libyaml-0.2.5       YAML 1.1 parser and emitter written in C
 libzip-1.8.0p0      library for reading, creating and modifying zip archives

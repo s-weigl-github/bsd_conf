@@ -38,7 +38,6 @@ install_system_tools(){
   pkg_add \
     f3 \
     zip \
-    rar \
     bat \
     most \
     bash \
@@ -46,6 +45,7 @@ install_system_tools(){
     tree \
     lnav \
     stow \
+    unrar \
     rsync \
     bzip2 \
     sl-ls \
@@ -165,6 +165,7 @@ install_inxi(){
   chmod +x inxi
   mv inxi /usr/local/bin/
   popd
+  #
 }
 #
 ##########################################################
@@ -185,10 +186,63 @@ install_graphic_tools(){
     imagemagick
 }
 #
+##########################################################
+# 8 #
+##########################################################
+create_profile(){
+  echo
+  echo "############################################"
+  echo " create .profile"
+  echo "############################################"
+  #
+  cat << EOF >> ~/.profile
+'''
+####
+##
+PS1='[\D{%H:%M:%S %a %d %b} \u@\h]:\n\w \\$ '
+#
+# for colored terminal output
+export TERM=wsvt25
+export LSCOLORS=gxfxcxdxbxegedabagacad
+##
+if command -v colorls > /dev/null; then
+  LS='colorls'
+else
+  LS='ls'
+fi
+#
+alias ls="$LS -FHh"
+##
+export CLICOLOR=1
+export COLORIZE=1
+#
+export EDITOR=/usr/local/bin/nano
+export HISTSIZE=5000
+export HISTFILESIZE=500
+#
+export PAGER=most
+export LESS='-iMRS -x2'
+#
+alias ..='cd ..'
+alias cl='clear'
+alias grep='grep -ni'
+alias mkdir='mkdir -p'
+alias updatedb='doas /usr/libexec/locate.updatedb'
+alias make='make -j19'
+alias sl='sl -a'
+alias btop='btop --force-utf'
+'''
+EOF
+  #
+}
+#
 ########################### MAIN #########################
 show_header
 sleep 2
 pkg_add -Uu
+#
+sleep 2
+create_profile        # 8 #
 #
 sleep 2
 install_system_tools  # 1 #
@@ -199,11 +253,15 @@ install_dev_tools     # 3 #
 sleep 2
 install_net_tools     # 4 #
 sleep 2
-install_utils   # 5 #
+install_utils         # 5 #
 sleep 2
 install_graphic_tools # 7 #
 sleep 2
 install_inxi          # 6 #
+#
+syspatch
+fw_update
+/usr/libexec/locate.updatedb
 #
 ##########################################################
 # end of script #
