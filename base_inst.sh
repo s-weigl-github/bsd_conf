@@ -243,6 +243,7 @@ pkg_add -Uu
 #
 sleep 2
 create_profile        # 8 #
+. ~/.profile
 #
 sleep 2
 install_system_tools  # 1 #
