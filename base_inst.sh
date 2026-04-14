@@ -21,6 +21,7 @@ cat << "HEADER"
 | $$$$$$$/|  $$$$$$$ /$$$$$$$/|  $$$$$$$       /$$$$$$| $$  | $$ /$$$$$$$/  |  $$$$/|  $$$$$$$| $$| $$
 |_______/  \_______/|_______/  \_______/      |______/|__/  |__/|_______/    \___/   \_______/|__/|__/
                                                                           Developed by Sebastian Weigl
+  install script for OpenBSD                                                                        
 HEADER
 }
 #
@@ -34,31 +35,21 @@ install_system_tools(){
   echo "############################################"
   #
   pkg_add \
-    bc \
     bat \
-    kmod \
     most \
+    bash \
+    nano \
     tree \
-    lsof \
     lnav \
-    fwupd \
     rsync \
-    strace \
-    psmisc \
-    gettext \
-    plocate \
     texinfo \
+    colorls \
     binutils \
     autoconf \
     whowatch \
     moreutils \
-    pkg-config \
-    libelf-dev \
-    genisoimage \
-    gnu-standards \
-    bash-completion \
-    libncurses5-dev \
-    software-properties-common
+    gettext-tools \
+    bash-completion
 }
 #
 ##########################################################
@@ -72,20 +63,11 @@ install_info(){
   #
   pkg_add \
     fzf \
-    inxi \
     htop \
-    lshw \
     ncdu \
     btop \
-    bpytop \
-    hwinfo \
-    lsscsi \
-    hdparm \
-    blktool \
-    sysstat \
-    neofetch \
+    fastfetch \
     dmidecode \
-    smbios-utils \
     smartmontools
 }
 #
@@ -102,16 +84,12 @@ install_dev_tools(){
     git \
     gcc \
     g++ \
-    flex \
     make \
     bison \
     cmake \
-    dwarves \
     lowdown \
     automake \
-    shellcheck \
-    git-extras \
-    autotools-dev
+    shellcheck
 }
 #
 ##########################################################
@@ -124,25 +102,14 @@ install_net_tools(){
   echo "############################################"
   #
   pkg_add \
-    ntp \
     lynx \
     curl \
     samba \
-    autofs \
     minicom \
-    ntpdate \
-    ethtool \
     sipcalc \
     arpwatch \
-    ipcalc-ng \
-    net-tools \
-    smbclient \
-    nfs-common \
-    cifs-utils \
-    netdiscover \
-    lynx-common \
-    ssh-askpass \
-    openssh-server
+    ipcalc \
+    ssh-askpass-fullscreen
 }
 #
 ##########################################################
@@ -155,45 +122,27 @@ install_other_tools(){
   echo "############################################"
   #
   pkg_add \
-    iat \
-    rpm \
     zip \
     rar \
-    arj \
-    tldr \
-    acpi \
-    lzma \
-    alien \
-    unzip \
-    unrar \
+    rarcrack \
+    acpica \
     bzip2 \
-    pbzip2 \
-    usbutils \
-    elfutils \
-    rpm-i18n \
-    rpm-common \
-    lm-sensors \
-    btrfs-progs
+    usbutils
 }
 #
 ##########################################################
 # 6 #
 ##########################################################
-install_deb_specific(){
+install_inxi(){
   echo
   echo "############################################"
-  echo " Install specific Debian tools"
+  echo " Install Inxi"
   echo "############################################"
   #
-  pkg_add \
-    sudo \
-    dh-make \
-    debian-keyring \
-    build-essential \
-    ca-certificates \
-    module-assistant \
-    apt-show-versions \
-    apt-transport-https
+  pushd /tmp
+  wget -O inxi https://smxi.org/inxi
+  mv inxi /usr/local/bin/
+  popd
 }
 #
 ##########################################################
@@ -208,10 +157,8 @@ install_graphic_tools(){
   pkg_add \
     gv \
     a2ps \
-    menu \
     groff \
     dialog \
-    html2ps \
     graphviz \
     imagemagick
 }
@@ -221,7 +168,6 @@ show_header
 sleep 2
 pkg_add -Uu
 #
-install_deb_specific  # 6 #
 sleep 2
 install_system_tools  # 1 #
 sleep 2
@@ -234,6 +180,8 @@ sleep 2
 install_other_tools   # 5 #
 sleep 2
 install_graphic_tools # 7 #
+sleep 2
+install_inxi          # 6 #
 #
 ##########################################################
 # end of script #
