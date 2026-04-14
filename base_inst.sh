@@ -33,7 +33,7 @@ install_system_tools(){
   echo " Install sytem tools"
   echo "############################################"
   #
-  apt-get install -y \
+  pkg_add \
     bc \
     bat \
     kmod \
@@ -70,7 +70,7 @@ install_info(){
   echo " Install info tools"
   echo "############################################"
   #
-  apt-get install -y \
+  pkg_add \
     fzf \
     inxi \
     htop \
@@ -98,7 +98,7 @@ install_dev_tools(){
   echo " Install development tools"
   echo "############################################"
   #
-  apt-get install -y \
+  pkg_add \
     git \
     gcc \
     g++ \
@@ -123,7 +123,7 @@ install_net_tools(){
   echo " Install network tools"
   echo "############################################"
   #
-  apt-get install -y \
+  pkg_add \
     ntp \
     lynx \
     curl \
@@ -154,7 +154,7 @@ install_other_tools(){
   echo " Install other tools"
   echo "############################################"
   #
-  apt-get install -y \
+  pkg_add \
     iat \
     rpm \
     zip \
@@ -185,7 +185,7 @@ install_deb_specific(){
   echo " Install specific Debian tools"
   echo "############################################"
   #
-  apt-get install -y \
+  pkg_add \
     sudo \
     dh-make \
     debian-keyring \
@@ -205,7 +205,7 @@ install_graphic_tools(){
   echo " Install graphic tools"
   echo "############################################"
   #
-  apt-get install -y \
+  pkg_add \
     gv \
     a2ps \
     menu \
@@ -219,7 +219,7 @@ install_graphic_tools(){
 ########################### MAIN #########################
 show_header
 sleep 2
-apt-get update && apt-get upgrade
+pkg_add -Uu
 #
 install_deb_specific  # 6 #
 sleep 2
