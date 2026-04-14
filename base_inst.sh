@@ -21,7 +21,8 @@ cat << "HEADER"
 | $$$$$$$/|  $$$$$$$ /$$$$$$$/|  $$$$$$$       /$$$$$$| $$  | $$ /$$$$$$$/  |  $$$$/|  $$$$$$$| $$| $$
 |_______/  \_______/|_______/  \_______/      |______/|__/  |__/|_______/    \___/   \_______/|__/|__/
                                                                           Developed by Sebastian Weigl
-  install script for OpenBSD                                                                        
+  install script for OpenBSD    
+
 HEADER
 }
 #
@@ -35,19 +36,26 @@ install_system_tools(){
   echo "############################################"
   #
   pkg_add \
+    f3 \
+    zip \
+    rar \
     bat \
     most \
     bash \
     nano \
     tree \
     lnav \
+    stow \
     rsync \
+    bzip2 \
+    sl-ls \
+    acpica \
+    ntfs_3g \
     texinfo \
     colorls \
-    binutils \
+    rarcrack \
     autoconf \
     whowatch \
-    moreutils \
     gettext-tools \
     bash-completion
 }
@@ -66,6 +74,11 @@ install_info(){
     htop \
     ncdu \
     btop \
+    tree \
+    lscpu \
+    lsblk \
+    iperf3 \
+    pstree \
     fastfetch \
     dmidecode \
     smartmontools
@@ -84,12 +97,15 @@ install_dev_tools(){
     git \
     gcc \
     g++ \
-    make \
     bison \
     cmake \
+    gmake \
     lowdown \
+    libtool \
     automake \
-    shellcheck
+    autoconf \
+    shellcheck \
+    clang-tools-extra
 }
 #
 ##########################################################
@@ -104,30 +120,35 @@ install_net_tools(){
   pkg_add \
     lynx \
     curl \
+    wget \
     samba \
-    minicom \
-    sipcalc \
-    arpwatch \
     ipcalc \
+    sipcalc \
+    minicom \
+    arpwatch \
     ssh-askpass-fullscreen
 }
 #
 ##########################################################
 # 5 #
 ##########################################################
-install_other_tools(){
+install_utils(){
   echo
   echo "############################################"
-  echo " Install other tools"
+  echo " Install utils"
   echo "############################################"
   #
   pkg_add \
-    zip \
-    rar \
-    rarcrack \
-    acpica \
-    bzip2 \
-    usbutils
+    usbutils \
+    binutils \
+    pciutils \
+    uniutils \
+    dateutils \
+    moreutils \
+    coreutils \
+    findutils \
+    exfat-fuse \
+    fuse-utils
 }
 #
 ##########################################################
@@ -141,6 +162,7 @@ install_inxi(){
   #
   pushd /tmp
   wget -O inxi https://smxi.org/inxi
+  chmod +x inxi
   mv inxi /usr/local/bin/
   popd
 }
@@ -177,7 +199,7 @@ install_dev_tools     # 3 #
 sleep 2
 install_net_tools     # 4 #
 sleep 2
-install_other_tools   # 5 #
+install_utils   # 5 #
 sleep 2
 install_graphic_tools # 7 #
 sleep 2
