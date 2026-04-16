@@ -181,6 +181,7 @@ install_graphic_tools(){
     gv \
     a2ps \
     groff \
+    screen \
     dialog \
     graphviz \
     imagemagick
