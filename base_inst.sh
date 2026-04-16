@@ -201,6 +201,7 @@ create_profile(){
 ####
 ##
 PS1='[\D{%H:%M:%S %a %d %b} \u@\h]:\n\w \\$ '
+#PS1='[\[\e[35m\]\D{%H:%M:%S %A %d %B}\[\e[0m\] \[\e[31m\]\u\[\e[0m\]@\[\e[36m\]\h\[\e[0m\]]:\n\[\e[93m\]\w\[\e[0m\] \[\e[90m\]\\$\[\e[0m\] '
 #
 # for colored terminal output
 export TERM=wsvt25
