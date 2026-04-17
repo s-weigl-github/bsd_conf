@@ -653,349 +653,349 @@ libxfce4windowing-4.20.4            Xfce4 windowing library
 libxkbcommon-1.11.0                 library to handle keyboard descriptions
 libxklavier-5.4p1                   utility library for XKB
 libxml-2.14.6                       XML parsing library
-libxslt-1.1.43p1    XSLT C Library for GNOME
-libyaml-0.2.5       YAML 1.1 parser and emitter written in C
-libzip-1.8.0p0      library for reading, creating and modifying zip archives
-llhttp-9.3.0p0      port of http_parser to llparse
-llvm-19.1.7p9       modular, fast C/C++/ObjC compiler, static analyzer and tools
-llvm-21.1.2p0       modular, fast C/C++/ObjC compiler, static analyzer and tools
-lmdb-0.9.33         Symas Lightning Memory-Mapped Database
-lokalize-25.08.1    KDE app localization tools
-lowdown-2.0.2       simple markdown translator
-lrzsz-0.12.20p3     receive/send files via X/Y/ZMODEM protocol
-lsblk-1.3.1p0       list block devices
-lscpu-1.3.0         gather and display CPU architecture information
-lskat-25.08.1       Lieutnant Skat - from German Offiziersskat
-lua-5.1.5p7         powerful, light-weight programming language (version 5.1.5)
-lua-5.2.4p1         powerful, light-weight programming language (version 5.2.4)
-lua-5.4.7           powerful, light-weight programming language (version 5.4.7)
-luajit-2.1.1763318511 just-in-time compiler for Lua
-lynx-2.9.2          text web browser
-lz4-1.10.0          fast BSD-licensed data compression
-lzo2-2.10p2         portable speedy lossless data compression library
-m4-1.4.20p0         GNU m4
-mac-vendor-20250914 MAC address vendor list
-mailcommon-25.08.1  KDE PIM common mail library
-mailimporter-25.08.1 KDE PIM mail importer library
-marble-25.08.1      virtual globe and world atlas
-mariadb-client-11.4.10p0v1 multithreaded SQL database (client)
-markdownpart-25.08.1 KPart for viewing Markdown files
-mbox-importer-25.08.1 KMail mbox importer
-merkuro-25.08.1     calendar email todo and task application
-messagelib-25.08.1  KDE PIM messaging library
-metaauto-1.0p4      wrapper for gnu auto*
-mhash-0.9.9.9p2     strong hash library
-milou-6.4.5p0       KDE5 Plasma Search and Launch
-mimetreeparser-25.08.1 KDE PIM messaging library
-minicom-2.8         MS-DOS Telix-like serial communication program
-minizip-4.0.8p0     zip manipulation library
-minuet-25.08.1      KDE software for music education
-mlt7-7.32.0p0       multimedia transformations framework
-mlt7-gpl2-7.32.0p0  GPLv2-licensed modules for mlt
-moreutils-0.70      miscellaneous unix tools
-most-5.2.0          browse or page through a text file
-motif-2.3.8p2       Motif toolkit
-mousepad-0.6.5      Xfce4 simple text editor
-mozilla-dicts-en-GB-1.3p1 en-GB dictionary for Mozilla
-mpfr-4.2.2          library for multiple-precision floating-point computations
-mpg123-1.33.2       fast console MPEG audio player and decoder library
-mpv-0.40.0          movie player based on MPlayer/mplayer2
-mypaint-brushes-1.3.1 brushes used by software using libmypaint
-nano-8.6            simple editor, inspired by Pico
-ncdu-1.22           ncurses-based du(1)
-neochat-25.08.1p0   client for Matrix chat
-neon-0.34.2p1       HTTP and WebDAV client library, with C interface
-nghttp2-1.68.1      library for HTTP/2
-nghttp3-1.12.0      implementation of HTTP/3
-ngtcp2-1.16.0       implementation of the RFC 9000 QUIC protocol
-noto-emoji-2.051v0  emoji fonts for the noto font family
-noto-fonts-2025.09.01v0 pan-unicode font family
-npth-1.8            new GNU Portable Threads Library
-nspr-4.37           Netscape Portable Runtime
-nss-3.116           libraries to support development of security-enabled apps
-ntfs_3g-2022.10.3   FUSE NTFS driver with read/write support
-ocaml-4.14.2        ML language with complete class-based objective system
-okteta-0.26.23v0    Hex Editor
-okular-25.08.1      KDE document viewer
-olm-3.2.16p0        Double Ratchet cryptographic ratchet in C++
-oniguruma-6.9.10    regular expressions library
-openal-1.24.2p1v0   cross-platform 3D audio API
-openbabel-3.1.1p5   chemistry file translation program
-openbsd-developers-2.0p58 geographic location of past and present OpenBSD developers
-openbsdisks2-0.5.0  UDisks2 service implementation for OpenBSD
-opencolorio-2.4.2p2v2 color management library
-opencore-amr-0.1.6  implementation of the Adaptive Multi Rate speech codec
-openh264-2.6.0      Cisco implementation of H.264 codec
-openjp2-2.5.4       open-source JPEG 2000 codec library
-openjph-0.24.1      implementation of JPEG2000 Part-15
-openldap-client-2.6.10v0 LDAP client library and tools
-openpam-20241220p0  Pluggable Authentication Module
-opensp-1.5.2p5      object-oriented SGML parser
-opentimelineio-0.17.0p1 editorial timeline API and interchange format
-opus-1.5.2p0        IETF audio codec
-opusfile-0.12       high-level decoding and seeking API for Opus files
-orc-0.4.32          library and toolset to operate arrays of data
-oxygen-6.4.5p0      style for Qt/KDE Applications
-oxygen-sounds-6.4.5 sounds for the Oxygen desktop theme
-p11-kit-0.25.10p0   library for loading and enumerating PKCS#11 modules
-p5-Error-0.17029    error/exception handling in an OO-ish way
-p5-IO-Tty-1.20      provide an interface to create pseudo ttys
-p5-IPC-Run-20231003.0 run a subprocess
-p5-Image-ExifTool-13.37 read and write meta information in image/audio/video files
-p5-MIME-Base32-1.303p0 Base32 encoder/decoder
-p5-Mail-Tools-2.21p0 modules for handling mail with perl
-p5-Regexp-IPv6-0.03p0 regular expression for IPv6 addresses
-p5-Time-Duration-1.21p0v0 module for rounded or exact english expression of durations
-p5-Time-TimeDate-2.33 library for parsing and formatting dates and times
-p5-URI-5.34p0       library to parse Uniform Resource Identifiers
-p7zip-17.06         file archiver with high compression ratio
-palapeli-25.08.1    jigsaw puzzle game
-pango-1.56.4        library for layout and rendering of text
-papirus-icon-theme-20250501p0 papirus icon theme
-pcaudiolib-1.3      C API to different audio devices
-pciutils-3.11.1     PCI bus configuration register access tools
-pcre-8.45           perl-compatible regular expression library
-pcre2-10.44         perl-compatible regular expression library, version 2
-pcsc-lite-2.3.2     resource manager for PC/SC
-phonon-4.12.0p0     multimedia layer for Qt5/KDE5
-phonon-backend-vlc-qt6-0.12.0p0 VLC-based Phonon backend
-phonon-qt6-4.12.0p0 multimedia layer for Qt5/KDE5
-picmi-25.08.1       single player puzzle game for KDE
-pim-data-exporter-25.08.1 KDE PIM data exporter
-pim-sieve-editor-25.08.1 mail sieve editor
-pimcommon-25.08.1   common libraries for KDE PIM
-pinentry-1.3.2p0    PIN or passphrase entry dialog (ncurses interface)
-pipewire-1.4.8      low-level multimedia framework - client & server
-plasma-activities-6.4.5 core components for the KDE Activity concept
-plasma-activities-stats-6.4.5 statistics for the KDE Activity concept
-plasma-browser-integration-6.4.5 Plasma browser integration
-plasma-desktop-6.4.5p0 KDE tools and widgets for the desktop
-plasma-integration-6.4.5 Plasma Platform Theme integration plugins
-plasma-nano-6.4.5   minimal Plasma shell package
-plasma-pa-6.4.5     KDE Plasma PulseAudio support
-plasma-sdk-6.4.5    applications useful for Plasma development
-plasma-wayland-protocols-1.18.0 KDE Wayland Plasma protocols
-plasma-workspace-6.4.5 various components needed to run a Plasma-based environment
-plasma-workspace-wallpapers-6.4.5 KDE Plasma wallpapers workspaces
-plasma5support-6.4.5 components for porting from KF5/Qt5 to KF6/Qt6
-png-1.6.56          library for manipulating PNG images
-polkit-126p2        framework for granting privileged operations to users
-polkit-kde-agent-6.4.5 daemon providing a Polkit authentication UI for Plasma
-polkit-qt5-0.200.0  PolicyKit authentication agent for Qt
-polkit-qt6-0.200.0  PolicyKit authentication agent for Qt
-poppler-25.09.1p0   PDF rendering library
-poppler-data-0.4.12 encoding files for poppler
-poppler-qt5-25.09.1p0 Qt5 interface to PDF rendering library
-poppler-qt6-25.09.1p0 Qt6 interface to PDF rendering library
-popt-1.16p4         getopt(3)-like library with a number of enhancements
-postgresql-client-17.9 PostgreSQL RDBMS (client)
-powerdevil-6.4.5p0  power management daemon
-poxml-25.08.1       convert PO files to XML
-print-manager-6.4.5p0v0 printing management for KDE
-protobuf-6.32.1     c++ protocol buffers
-ps2eps-1.70         convert Postscript to Encapsulated Postscript
-pstree-2.40         list processes as a tree
-psutils-3.3.14      manipulate PDF and PostScript documents
-pulseaudio-17.0p3   cross-platform networked sound server
-pulseaudio-qt-1.7.0 Qt bindings for libpulse
-py3-MarkupSafe-3.0.3 implements an XML/HTML/XHTML markup safe string
-py3-beaker-1.13.0p2 session and caching library with wsgi middleware
-py3-brotli-1.1.0p1  Python bindings for the Brotli compression library
-py3-cairo-1.28.0    cairo bindings for Python
-py3-capstone-5.0p3  Python bindings for capstone
-py3-certifi-2025.8.3 TLS CA support for Python, patched to use /etc/ssl/cert.pem
-py3-charset-normalizer-3.4.3 character set detector library
-py3-click-8.2.0p0   command line library for Python
-py3-cryptodome-3.23.0 self-contained cryptographic library for Python
-py3-cryptodomex-3.23.0 self-contained cryptographic library for Python
-py3-cstruct-5.3p2   C-style structs for Python
-py3-dnspython-2.8.0 DNS toolkit for Python
-py3-gobject3-3.52.3p0 Python bindings for GLib and GObject
-py3-idna-3.10p1     Python library to support the IDNA protocol
-py3-lzo-1.15p2      Python bindings for the LZO compression library
-py3-mako-1.3.10p0   super-fast templating language
-py3-markdown-3.9    text-to-HTML conversion tool
-py3-more-itertools-10.7.0 routines for operating on iterables beyond itertools
-py3-mutagen-1.47.0p2 Python module to handle audio metadata
-py3-packaging-25.0  core utilities for Python packaging
-py3-puremagic-1.30  pure Python implementation of magic file detection
-py3-pypdf-6.1.1     Python library for manipulating pages of PDF files
-py3-requests-2.32.5 elegant and simple HTTP library for Python
-py3-serial-3.5p0    serial interface class for Python
-py3-setuptools-79.0.1v0 simplified packaging system for Python modules
-py3-talloc-2.4.3    Python 3.12 bindings for talloc
-py3-tdb-1.4.14      Python 3.12 bindings for tdb
-py3-urllib3-1.26.18p2 HTTP library for Python
-py3-wheel-0.46.1    reference implementation for Python's "wheel" package format
-py3-xdg-0.28p5      python library to access freedesktop.org standards
-pystring-1.1.4      C++ functions analogous to Python string methods
-python-3.12.13      interpreted object-oriented programming language
-qca-qt5-2.3.10      Qt Cryptographic Architecture
-qca-qt6-2.3.10      Qt Cryptographic Architecture
-qcoro-0.12.0p3      C++ coroutines for Qt
-qqc2-breeze-style-6.4.5 Breeze QQC2 Style
-qt6-mysql-6.8.3     MySQL plugin for Qt6
-qt6-postgresql-6.8.3 PostgresSQL plugin for Qt6
-qt6-qt5compat-6.8.3 Qt6 module contains unsupported Qt 5 APIs
-qt6-qtbase-6.8.3p4  C++ general-purpose toolkit
-qt6-qtcharts-6.8.3  Qt6 components for drawing 2D charts
-qt6-qtconnectivity-6.8.3 Bluetooth and NFC support for Qt6
-qt6-qtdeclarative-6.8.3p0 Qt6 Quick and QML components
-qt6-qthttpserver-6.8.3 HTTP Server support for Qt6
-qt6-qtlanguageserver-6.8.3 Language server implementation for Qt6
-qt6-qtlocation-6.8.3 Geo positioning APIs
-qt6-qtmultimedia-6.8.3 Qt6 multimedia components
-qt6-qtnetworkauth-6.8.3 Qt6 network authorization components
-qt6-qtpositioning-6.8.3 Qt Positioning API
-qt6-qtquick3d-6.8.3 Quick 3D support for Qt6
-qt6-qtscxml-6.8.3   create state machines from SCXML files
-qt6-qtsensors-6.8.3 Qt6 hardware sensors support
-qt6-qtserialport-6.8.3 Qt6 serial ports access components
-qt6-qtshadertools-6.8.3 Qt6 shader tools module
-qt6-qtspeech-6.8.3  Qt text-to-speech components
-qt6-qtsvg-6.8.3     SVG support for Qt6
-qt6-qttools-6.8.3p0 Qt6 development tools
-qt6-qtwayland-6.8.3 Qt6 module for Wayland support
-qt6-qtwebchannel-6.8.3 Qt6 seamless HTML/JavaScript integration
-qt6-qtwebengine-6.8.3p3 Qt chromium based web engine
-qt6-qtwebsockets-6.8.3 Qt6 module for the WebSocket protocol
-qt6-qtwebview-6.8.3 simple web viewing component for Qt6
-qt6-qxlsx-1.5.0     MS Excel file reader/writer library
-qtadvanceddocking-4.4.0 advanced docking system for Qt
-qtbase-5.15.16pl130p0 C++ general-purpose toolkit
-qtdatavis3d-5.15.16pl3 Qt5 3D data visualization components
-qtdeclarative-5.15.16pl3 Qt5 Quick and QML components
-qtgraphicaleffects-5.15.16 UI effects library for Qt Quick
-qtkeychain-0.14.2p0 Qt API to store passwords and other secret data
-qtkeychain-qt6-0.14.2p0 Qt API to store passwords and other secret data
-qtlocation-5.15.16pl3 Qt5 geo positioning APIs
-qtmultimedia-5.15.16pl2p0 Qt5 multimedia components
-qtnetworkauth-5.15.16 Qt5 network authorization components
-qtquickcontrols-5.15.16 Qt Quick based UI controls
-qtquickcontrols2-5.15.16pl5 Qt5 Quick based UI controls from Qt Labs
-qtscript-5.15.16    ECMAScript language for Qt5
-qtserialport-5.15.16 Qt5 serial ports access components
-qtspeech-5.15.16pl1 Qt5 text-to-speech components
-qtsvg-5.15.16pl5    SVG support for Qt5
-qttools-5.15.16pl3p0 Qt development tools
-qtwayland-5.15.16pl59 Qt5 module for Wayland support
-qtwebchannel-5.15.16pl3 Qt5 seamless HTML/JavaScript integration
-qtwebengine-5.15.17pl11p2 Chromium-based web engine for Qt5
-qtwebsockets-5.15.16pl2 Qt5 implementation of WebSocket protocol
-qtx11extras-5.15.16 X11-specific parts of Qt
-qtxmlpatterns-5.15.16 Qt5 support for XPath, XQuery, XSLT and XML Schema
-quazip-qt5-1.4p0    Qt/C++ wrapper for ZIP/UNZIP package
-quirks-7.147        exceptions to pkg_add rules
-readline-8.2.13p1   library to edit command lines as they are typed in
-rhash-1.4.6         utility and library for computing hash sums
-ristretto-0.13.4    Xfce4 lightweight image-viewer
-rocs-25.08.1        graph theory IDE for KDE
-rsync-3.4.1         mirroring/synchronization over low bandwidth links
-rzip-2.1p2          file compressor with a high compression ratio
-samba-4.23.6v0      SMB and CIFS client and server for UNIX
-sane-backends-1.4.0p1 API for accessing scanners, backends
-sdl-1.2.15p12       cross-platform multimedia library
-sdl-image-1.2.12p5  SDL image library
-sdl2-2.32.8         cross-platform multimedia library
-shaderc-2024.0p0    SL/HLSL to SPIR-V shader compiler
-shapelib-1.6.1      shapefile manipulation library
-shared-mime-info-2.4p0 shared mime database for desktops
-shellcheck-0.10.0   shell script analysis tool
-signond-qt6-8.61    SignOn Daemon (Qt)
-skanlite-25.08.1    scanning application for KDE
-sl-ls-1.1.2p1       substantially more useful ls
-slib-3b4p0          scheme r5 library
-smartmontools-7.5   control and monitor storage systems using SMART
-snappy-1.1.10p2     fast compression/decompression library
-solid-5.116.0       KDE hardware abstraction layer
-sonnet-5.116.0p0    multi-language spell checker for KDE
-sound-theme-freedesktop-0.8p0 XDG sound theme
-soundtouch-2.3.3    tempo/pitch audio processing library
-sox-14.4.4p3        Sound eXchange, the Swiss Army knife of audio manipulation
-spandsp-0.0.6p1     ??????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
-sparsehash-2.0.4    memory-efficient hash_map and hash_set C++ classes
-speech-dispatcher-0.12.1 common interface to speech synthesis
-speex-1.2.1         patent-free speech codec
-speexdsp-1.2.1      speech processing DSP library
-sqlite3-3.50.7p0    embedded SQL implementation
-sshfs-fuse-2.10     mount remote directories over ssh
-sshpass-1.10        noninteractive ssh password provider
-startup-notification-0.12p9 library for tracking application startup
-steghide-0.5.1p11   software able to hide data in various kind of files
-step-25.08.1        KDE interactive physics simulator
-stow-2.4.1          manages software package installations with symlinks
-sweeper-25.08.1     KDE tool for sweeping unwanted traces from system
-syndication-5.116.0 RSS/Atom parser library
-syntax-highlighting-5.116.0 highlighting engine for structured text and code
-t1utils-1.42        utilities for PostScript Type 1 fonts
-taglib-2.0.2        managing meta-data of audio formats
-tcl-8.5.19p6        Tool Command Language
-tcl-8.6.16          Tool Command Language
-tdb-1.4.14          trivial database library
-texinfo-7.1p1       official documentation format of the GNU project
-texlive_base-2025   base binaries for TeXLive typesetting distribution
-texlive_mktexlsr-2025 mktexlsr for TeXLive typesetting distribution
-texlive_synctex-2025 synctex for TeXLive typesetting distribution
-texlive_texmf-buildset-2025 smallest texlive texmf for building ports
-thunar-4.20.5       Xfce4 file manager
-tiff-4.7.1p0        tools and library routines for working with TIFF images
-tk-8.5.19p2         graphical toolkit for Tcl
-tokodon-25.08.1p0   KDE Mastodon client
-tree-0.62           print ascii formatted tree of a directory structure
-tumbler-4.20.0p1    D-Bus thumbnailing service
-twolame-0.4.0p0     optimised MPEG Audio Layer 2 (MP2) encoder
-umbrello-25.08.1    UML Modeller
-uniutils-2.27p4     Unicode utilities
-unrar-7.13v2        extract, list, and test RAR archives
-unzip-6.0p18        extract, list & test files in a ZIP archive
-updatedb-0p0        pkg_add speed up cache
-upower-1.90.10      userland power management interface
-usbutils-007p0      utility used to display information about USB devices
-vlc-3.0.21p8        VideoLAN client; multimedia player
-vmm-firmware-1.16.3p1 firmware binary images for vmm(4) driver
-vte3-0.80.4         GTK3 terminal emulation library
-vte3-common-0.80.4  shared files for vte3
-vulkan-headers-1.4.321.0 Vulkan header files
-vulkan-loader-1.4.321.0 Vulkan ICD loader
-vulkan-tools-1.4.321.0 Vulkan Utilities and Tools
-wavpack-5.8.1p0     audio codec for lossless, lossy and hybrid compression
-wayland-1.24.0p1    Display server protocol
-wayland-protocols-1.45 Wayland protocols
-webkitgtk41-2.48.7p0 GTK+ port of the WebKit (4.1) rendering engine
-wget-1.25.0p0       retrieve files from the web via HTTP, HTTPS and FTP
-wireplumber-0.5.11  modular session / policy manager for PipeWire
-woff2-1.0.2p1       Web Open Font Format 2.0 library
-x264-20241229       free H.264/MPEG-4 AVC encoder
-x265-4.1p0          free H.265/HEVC encoder
-xapian-core-1.4.29  search engine library
-xdg-desktop-portal-kde-6.4.5 xdg-desktop-portal Qt/KF6 backend
-xdg-utils-1.2.1     utilities to assist desktop integration tasks
-xfce-4.20.0         Xfce desktop meta-package (base installation)
-xfce4-appfinder-4.20.0p0 Xfce4 application finder
-xfce4-mixer-4.20.0p0 Xfce4 volume mixer
-xfce4-notifyd-0.9.7p0 Xfce4 notification daemon
-xfce4-panel-4.20.5  Xfce4 desktop panel
-xfce4-screensaver-4.20.1 Xfce4 screensaver
-xfce4-session-4.20.3 Xfce4 session manager
-xfce4-settings-4.20.2 Xfce4 settings helpers
-xfce4-taskmanager-1.6.0 Xfce4 task manager and system monitor
-xfce4-terminal-1.1.5 Xfce4 terminal
-xfconf-4.20.0       Xfce4 settings daemon
-xfdesktop-4.20.1    Xfce4 desktop manager
-xfwm4-4.20.0p0      Xfce4 window manager
-xfwm4-themes-4.10.0p0 Xfwm4 window decoration themes
-xplanet-1.3.1p0     draw pictures of the earth textured by an image
-xsettingsd-1.0.2p0  lightweight XSETTINGS daemon
-xvidcore-1.3.7      ISO MPEG-4 compliant video codec
-xwayland-24.1.8     X server running as wayland application
-xz-5.8.3            library and tools for XZ and LZMA compressed files
-yakuake-25.08.1v0   drop-down terminal emulator based on KDE Konsole
-yaml-cpp-0.8.0      YAML parser and emitter in C++
-yelp-42.3           GNOME help browser
-yelp-xsl-42.4       XSLT stylesheets for yelp
-yt-dlp-2025.10.22   CLI program to download videos from YouTube and other sites
-zimg-3.0.5          scaling, colorspace conversion, and dithering library
-zip-3.0p3           create/update ZIP files compatible with PKZip(tm)
-zstd-1.5.7p0        zstandard fast real-time compression algorithm
-zxing-cpp-2.2.1p0   C++ barcode image processing library
-zziplib-0.13.72p1   lightweight library for extracting data from zip files
+libxslt-1.1.43p1                    XSLT C Library for GNOME
+libyaml-0.2.5                       YAML 1.1 parser and emitter written in C
+libzip-1.8.0p0                      library for reading, creating and modifying zip archives
+llhttp-9.3.0p0                      port of http_parser to llparse
+llvm-19.1.7p9                       modular, fast C/C++/ObjC compiler, static analyzer and tools
+llvm-21.1.2p0                       modular, fast C/C++/ObjC compiler, static analyzer and tools
+lmdb-0.9.33                         Symas Lightning Memory-Mapped Database
+lokalize-25.08.1                    KDE app localization tools
+lowdown-2.0.2                       simple markdown translator
+lrzsz-0.12.20p3                     receive/send files via X/Y/ZMODEM protocol
+lsblk-1.3.1p0                       list block devices
+lscpu-1.3.0                         gather and display CPU architecture information
+lskat-25.08.1                       Lieutnant Skat - from German Offiziersskat
+lua-5.1.5p7                         powerful, light-weight programming language (version 5.1.5)
+lua-5.2.4p1                         powerful, light-weight programming language (version 5.2.4)
+lua-5.4.7                           powerful, light-weight programming language (version 5.4.7)
+luajit-2.1.1763318511               just-in-time compiler for Lua
+lynx-2.9.2                          text web browser
+lz4-1.10.0                          fast BSD-licensed data compression
+lzo2-2.10p2                         portable speedy lossless data compression library
+m4-1.4.20p0                         GNU m4
+mac-vendor-20250914                 MAC address vendor list
+mailcommon-25.08.1                  KDE PIM common mail library
+mailimporter-25.08.1                KDE PIM mail importer library
+marble-25.08.1                      virtual globe and world atlas
+mariadb-client-11.4.10p0v1          multithreaded SQL database (client)
+markdownpart-25.08.1                KPart for viewing Markdown files
+mbox-importer-25.08.1               KMail mbox importer
+merkuro-25.08.1                     calendar email todo and task application
+messagelib-25.08.1                  KDE PIM messaging library
+metaauto-1.0p4                      wrapper for gnu auto*
+mhash-0.9.9.9p2                     strong hash library
+milou-6.4.5p0                       KDE5 Plasma Search and Launch
+mimetreeparser-25.08.1              KDE PIM messaging library
+minicom-2.8                         MS-DOS Telix-like serial communication program
+minizip-4.0.8p0                     zip manipulation library
+minuet-25.08.1                      KDE software for music education
+mlt7-7.32.0p0                       multimedia transformations framework
+mlt7-gpl2-7.32.0p0                  GPLv2-licensed modules for mlt
+moreutils-0.70                      miscellaneous unix tools
+most-5.2.0                          browse or page through a text file
+motif-2.3.8p2                       Motif toolkit
+mousepad-0.6.5                      Xfce4 simple text editor
+mozilla-dicts-en-GB-1.3p1           en-GB dictionary for Mozilla
+mpfr-4.2.2                          library for multiple-precision floating-point computations
+mpg123-1.33.2                       fast console MPEG audio player and decoder library
+mpv-0.40.0                          movie player based on MPlayer/mplayer2
+mypaint-brushes-1.3.1               brushes used by software using libmypaint
+nano-8.6                            simple editor, inspired by Pico
+ncdu-1.22                           ncurses-based du(1)
+neochat-25.08.1p0                   client for Matrix chat
+neon-0.34.2p1                       HTTP and WebDAV client library, with C interface
+nghttp2-1.68.1                      library for HTTP/2
+nghttp3-1.12.0                      implementation of HTTP/3
+ngtcp2-1.16.0                       implementation of the RFC 9000 QUIC protocol
+noto-emoji-2.051v0                  emoji fonts for the noto font family
+noto-fonts-2025.09.01v0             pan-unicode font family
+npth-1.8                            new GNU Portable Threads Library
+nspr-4.37                           Netscape Portable Runtime
+nss-3.116                           libraries to support development of security-enabled apps
+ntfs_3g-2022.10.3                   FUSE NTFS driver with read/write support
+ocaml-4.14.2                        ML language with complete class-based objective system
+okteta-0.26.23v0                    Hex Editor
+okular-25.08.1                      KDE document viewer
+olm-3.2.16p0                        Double Ratchet cryptographic ratchet in C++
+oniguruma-6.9.10                    regular expressions library
+openal-1.24.2p1v0                   cross-platform 3D audio API
+openbabel-3.1.1p5                   chemistry file translation program
+openbsd-developers-2.0p58           geographic location of past and present OpenBSD developers
+openbsdisks2-0.5.0                  UDisks2 service implementation for OpenBSD
+opencolorio-2.4.2p2v2               color management library
+opencore-amr-0.1.6                  implementation of the Adaptive Multi Rate speech codec
+openh264-2.6.0                      Cisco implementation of H.264 codec
+openjp2-2.5.4                       open-source JPEG 2000 codec library
+openjph-0.24.1                      implementation of JPEG2000 Part-15
+openldap-client-2.6.10v0            LDAP client library and tools
+openpam-20241220p0                  Pluggable Authentication Module
+opensp-1.5.2p5                      object-oriented SGML parser
+opentimelineio-0.17.0p1             editorial timeline API and interchange format
+opus-1.5.2p0                        IETF audio codec
+opusfile-0.12                       high-level decoding and seeking API for Opus files
+orc-0.4.32                          library and toolset to operate arrays of data
+oxygen-6.4.5p0                      style for Qt/KDE Applications
+oxygen-sounds-6.4.5                 sounds for the Oxygen desktop theme
+p11-kit-0.25.10p0                   library for loading and enumerating PKCS#11 modules
+p5-Error-0.17029                    error/exception handling in an OO-ish way
+p5-IO-Tty-1.20                      provide an interface to create pseudo ttys
+p5-IPC-Run-20231003.0               run a subprocess
+p5-Image-ExifTool-13.37             read and write meta information in image/audio/video files
+p5-MIME-Base32-1.303p0              Base32 encoder/decoder
+p5-Mail-Tools-2.21p0                modules for handling mail with perl
+p5-Regexp-IPv6-0.03p0               regular expression for IPv6 addresses
+p5-Time-Duration-1.21p0v0           module for rounded or exact english expression of durations
+p5-Time-TimeDate-2.33               library for parsing and formatting dates and times
+p5-URI-5.34p0                       library to parse Uniform Resource Identifiers
+p7zip-17.06                         file archiver with high compression ratio
+palapeli-25.08.1                    jigsaw puzzle game
+pango-1.56.4                        library for layout and rendering of text
+papirus-icon-theme-20250501p0       papirus icon theme
+pcaudiolib-1.3                      C API to different audio devices
+pciutils-3.11.1                     PCI bus configuration register access tools
+pcre-8.45                           perl-compatible regular expression library
+pcre2-10.44                         perl-compatible regular expression library, version 2
+pcsc-lite-2.3.2                     resource manager for PC/SC
+phonon-4.12.0p0                     multimedia layer for Qt5/KDE5
+phonon-backend-vlc-qt6-0.12.0p0     VLC-based Phonon backend
+phonon-qt6-4.12.0p0                 multimedia layer for Qt5/KDE5
+picmi-25.08.1                       single player puzzle game for KDE
+pim-data-exporter-25.08.1           KDE PIM data exporter
+pim-sieve-editor-25.08.1            mail sieve editor
+pimcommon-25.08.1                   common libraries for KDE PIM
+pinentry-1.3.2p0                    PIN or passphrase entry dialog (ncurses interface)
+pipewire-1.4.8                      low-level multimedia framework - client & server
+plasma-activities-6.4.5             core components for the KDE Activity concept
+plasma-activities-stats-6.4.5       statistics for the KDE Activity concept
+plasma-browser-integration-6.4.5    Plasma browser integration
+plasma-desktop-6.4.5p0              KDE tools and widgets for the desktop
+plasma-integration-6.4.5            Plasma Platform Theme integration plugins
+plasma-nano-6.4.5                   minimal Plasma shell package
+plasma-pa-6.4.5                     KDE Plasma PulseAudio support
+plasma-sdk-6.4.5                    applications useful for Plasma development
+plasma-wayland-protocols-1.18.0     KDE Wayland Plasma protocols
+plasma-workspace-6.4.5              various components needed to run a Plasma-based environment
+plasma-workspace-wallpapers-6.4.5   KDE Plasma wallpapers workspaces
+plasma5support-6.4.5                components for porting from KF5/Qt5 to KF6/Qt6
+png-1.6.56                          library for manipulating PNG images
+polkit-126p2                        framework for granting privileged operations to users
+polkit-kde-agent-6.4.5              daemon providing a Polkit authentication UI for Plasma
+polkit-qt5-0.200.0                  PolicyKit authentication agent for Qt
+polkit-qt6-0.200.0                  PolicyKit authentication agent for Qt
+poppler-25.09.1p0                   PDF rendering library
+poppler-data-0.4.12                 encoding files for poppler
+poppler-qt5-25.09.1p0               Qt5 interface to PDF rendering library
+poppler-qt6-25.09.1p0               Qt6 interface to PDF rendering library
+popt-1.16p4                         getopt(3)-like library with a number of enhancements
+postgresql-client-17.9              PostgreSQL RDBMS (client)
+powerdevil-6.4.5p0                  power management daemon
+poxml-25.08.1                       convert PO files to XML
+print-manager-6.4.5p0v0             printing management for KDE
+protobuf-6.32.1                     c++ protocol buffers
+ps2eps-1.70                         convert Postscript to Encapsulated Postscript
+pstree-2.40                         list processes as a tree
+psutils-3.3.14                      manipulate PDF and PostScript documents
+pulseaudio-17.0p3                   cross-platform networked sound server
+pulseaudio-qt-1.7.0                 Qt bindings for libpulse
+py3-MarkupSafe-3.0.3                implements an XML/HTML/XHTML markup safe string
+py3-beaker-1.13.0p2                 session and caching library with wsgi middleware
+py3-brotli-1.1.0p1                  Python bindings for the Brotli compression library
+py3-cairo-1.28.0                    cairo bindings for Python
+py3-capstone-5.0p3                  Python bindings for capstone
+py3-certifi-2025.8.3                TLS CA support for Python, patched to use /etc/ssl/cert.pem
+py3-charset-normalizer-3.4.3        character set detector library
+py3-click-8.2.0p0                   command line library for Python
+py3-cryptodome-3.23.0               self-contained cryptographic library for Python
+py3-cryptodomex-3.23.0              self-contained cryptographic library for Python
+py3-cstruct-5.3p2                   C-style structs for Python
+py3-dnspython-2.8.0                 DNS toolkit for Python
+py3-gobject3-3.52.3p0               Python bindings for GLib and GObject
+py3-idna-3.10p1                     Python library to support the IDNA protocol
+py3-lzo-1.15p2                      Python bindings for the LZO compression library
+py3-mako-1.3.10p0                   super-fast templating language
+py3-markdown-3.9                    text-to-HTML conversion tool
+py3-more-itertools-10.7.0           routines for operating on iterables beyond itertools
+py3-mutagen-1.47.0p2                Python module to handle audio metadata
+py3-packaging-25.0                  core utilities for Python packaging
+py3-puremagic-1.30                  pure Python implementation of magic file detection
+py3-pypdf-6.1.1                     Python library for manipulating pages of PDF files
+py3-requests-2.32.5                 elegant and simple HTTP library for Python
+py3-serial-3.5p0                    serial interface class for Python
+py3-setuptools-79.0.1v0             simplified packaging system for Python modules
+py3-talloc-2.4.3                    Python 3.12 bindings for talloc
+py3-tdb-1.4.14                      Python 3.12 bindings for tdb
+py3-urllib3-1.26.18p2               HTTP library for Python
+py3-wheel-0.46.1                    reference implementation for Python's "wheel" package format
+py3-xdg-0.28p5                      python library to access freedesktop.org standards
+pystring-1.1.4                      C++ functions analogous to Python string methods
+python-3.12.13                      interpreted object-oriented programming language
+qca-qt5-2.3.10                      Qt Cryptographic Architecture
+qca-qt6-2.3.10                      Qt Cryptographic Architecture
+qcoro-0.12.0p3                      C++ coroutines for Qt
+qqc2-breeze-style-6.4.5             Breeze QQC2 Style
+qt6-mysql-6.8.3                     MySQL plugin for Qt6
+qt6-postgresql-6.8.3                PostgresSQL plugin for Qt6
+qt6-qt5compat-6.8.3                 Qt6 module contains unsupported Qt 5 APIs
+qt6-qtbase-6.8.3p4                  C++ general-purpose toolkit
+qt6-qtcharts-6.8.3                  Qt6 components for drawing 2D charts
+qt6-qtconnectivity-6.8.3            Bluetooth and NFC support for Qt6
+qt6-qtdeclarative-6.8.3p0           Qt6 Quick and QML components
+qt6-qthttpserver-6.8.3              HTTP Server support for Qt6
+qt6-qtlanguageserver-6.8.3          Language server implementation for Qt6
+qt6-qtlocation-6.8.3                Geo positioning APIs
+qt6-qtmultimedia-6.8.3              Qt6 multimedia components
+qt6-qtnetworkauth-6.8.3             Qt6 network authorization components
+qt6-qtpositioning-6.8.3             Qt Positioning API
+qt6-qtquick3d-6.8.3                 Quick 3D support for Qt6
+qt6-qtscxml-6.8.3                   create state machines from SCXML files
+qt6-qtsensors-6.8.3                 Qt6 hardware sensors support
+qt6-qtserialport-6.8.3              Qt6 serial ports access components
+qt6-qtshadertools-6.8.3             Qt6 shader tools module
+qt6-qtspeech-6.8.3                  Qt text-to-speech components
+qt6-qtsvg-6.8.3                     SVG support for Qt6
+qt6-qttools-6.8.3p0                 Qt6 development tools
+qt6-qtwayland-6.8.3                 Qt6 module for Wayland support
+qt6-qtwebchannel-6.8.3              Qt6 seamless HTML/JavaScript integration
+qt6-qtwebengine-6.8.3p3             Qt chromium based web engine
+qt6-qtwebsockets-6.8.3              Qt6 module for the WebSocket protocol
+qt6-qtwebview-6.8.3                 simple web viewing component for Qt6
+qt6-qxlsx-1.5.0                     MS Excel file reader/writer library
+qtadvanceddocking-4.4.0             advanced docking system for Qt
+qtbase-5.15.16pl130p0               C++ general-purpose toolkit
+qtdatavis3d-5.15.16pl3              Qt5 3D data visualization components
+qtdeclarative-5.15.16pl3            Qt5 Quick and QML components
+qtgraphicaleffects-5.15.16          UI effects library for Qt Quick
+qtkeychain-0.14.2p0                 Qt API to store passwords and other secret data
+qtkeychain-qt6-0.14.2p0             Qt API to store passwords and other secret data
+qtlocation-5.15.16pl3               Qt5 geo positioning APIs
+qtmultimedia-5.15.16pl2p0           Qt5 multimedia components
+qtnetworkauth-5.15.16               Qt5 network authorization components
+qtquickcontrols-5.15.16             Qt Quick based UI controls
+qtquickcontrols2-5.15.16pl5         Qt5 Quick based UI controls from Qt Labs
+qtscript-5.15.16                    ECMAScript language for Qt5
+qtserialport-5.15.16                Qt5 serial ports access components
+qtspeech-5.15.16pl1                 Qt5 text-to-speech components
+qtsvg-5.15.16pl5                    SVG support for Qt5
+qttools-5.15.16pl3p0                Qt development tools
+qtwayland-5.15.16pl59               Qt5 module for Wayland support
+qtwebchannel-5.15.16pl3             Qt5 seamless HTML/JavaScript integration
+qtwebengine-5.15.17pl11p2           Chromium-based web engine for Qt5
+qtwebsockets-5.15.16pl2             Qt5 implementation of WebSocket protocol
+qtx11extras-5.15.16                 X11-specific parts of Qt
+qtxmlpatterns-5.15.16               Qt5 support for XPath, XQuery, XSLT and XML Schema
+quazip-qt5-1.4p0                    Qt/C++ wrapper for ZIP/UNZIP package
+quirks-7.147                        exceptions to pkg_add rules
+readline-8.2.13p1                   library to edit command lines as they are typed in
+rhash-1.4.6                         utility and library for computing hash sums
+ristretto-0.13.4                    Xfce4 lightweight image-viewer
+rocs-25.08.1                        graph theory IDE for KDE
+rsync-3.4.1                         mirroring/synchronization over low bandwidth links
+rzip-2.1p2                          file compressor with a high compression ratio
+samba-4.23.6v0                      SMB and CIFS client and server for UNIX
+sane-backends-1.4.0p1               API for accessing scanners, backends
+sdl-1.2.15p12                       cross-platform multimedia library
+sdl-image-1.2.12p5                  SDL image library
+sdl2-2.32.8                         cross-platform multimedia library
+shaderc-2024.0p0                    SL/HLSL to SPIR-V shader compiler
+shapelib-1.6.1                      shapefile manipulation library
+shared-mime-info-2.4p0              shared mime database for desktops
+shellcheck-0.10.0                   shell script analysis tool
+signond-qt6-8.61                    SignOn Daemon (Qt)
+skanlite-25.08.1                    scanning application for KDE
+sl-ls-1.1.2p1                       substantially more useful ls
+slib-3b4p0                          scheme r5 library
+smartmontools-7.5                   control and monitor storage systems using SMART
+snappy-1.1.10p2                     fast compression/decompression library
+solid-5.116.0                       KDE hardware abstraction layer
+sonnet-5.116.0p0                    multi-language spell checker for KDE
+sound-theme-freedesktop-0.8p0       XDG sound theme
+soundtouch-2.3.3                    tempo/pitch audio processing library
+sox-14.4.4p3                        Sound eXchange, the Swiss Army knife of audio manipulation
+spandsp-0.0.6p1                     ???
+sparsehash-2.0.4                    memory-efficient hash_map and hash_set C++ classes
+speech-dispatcher-0.12.1            common interface to speech synthesis
+speex-1.2.1                         patent-free speech codec
+speexdsp-1.2.1                      speech processing DSP library
+sqlite3-3.50.7p0                    embedded SQL implementation
+sshfs-fuse-2.10                     mount remote directories over ssh
+sshpass-1.10                        noninteractive ssh password provider
+startup-notification-0.12p9         library for tracking application startup
+steghide-0.5.1p11                   software able to hide data in various kind of files
+step-25.08.1                        KDE interactive physics simulator
+stow-2.4.1                          manages software package installations with symlinks
+sweeper-25.08.1                     KDE tool for sweeping unwanted traces from system
+syndication-5.116.0                 RSS/Atom parser library
+syntax-highlighting-5.116.0         highlighting engine for structured text and code
+t1utils-1.42                        utilities for PostScript Type 1 fonts
+taglib-2.0.2                        managing meta-data of audio formats
+tcl-8.5.19p6                        Tool Command Language
+tcl-8.6.16                          Tool Command Language
+tdb-1.4.14                          trivial database library
+texinfo-7.1p1                       official documentation format of the GNU project
+texlive_base-2025                   base binaries for TeXLive typesetting distribution
+texlive_mktexlsr-2025               mktexlsr for TeXLive typesetting distribution
+texlive_synctex-2025                synctex for TeXLive typesetting distribution
+texlive_texmf-buildset-2025         smallest texlive texmf for building ports
+thunar-4.20.5                       Xfce4 file manager
+tiff-4.7.1p0                        tools and library routines for working with TIFF images
+tk-8.5.19p2                         graphical toolkit for Tcl
+tokodon-25.08.1p0                   KDE Mastodon client
+tree-0.62                           print ascii formatted tree of a directory structure
+tumbler-4.20.0p1                    D-Bus thumbnailing service
+twolame-0.4.0p0                     optimised MPEG Audio Layer 2 (MP2) encoder
+umbrello-25.08.1                    UML Modeller
+uniutils-2.27p4                     Unicode utilities
+unrar-7.13v2                        extract, list, and test RAR archives
+unzip-6.0p18                        extract, list & test files in a ZIP archive
+updatedb-0p0                        pkg_add speed up cache
+upower-1.90.10                      userland power management interface
+usbutils-007p0                      utility used to display information about USB devices
+vlc-3.0.21p8                        VideoLAN client; multimedia player
+vmm-firmware-1.16.3p1               firmware binary images for vmm(4) driver
+vte3-0.80.4                         GTK3 terminal emulation library
+vte3-common-0.80.4                  shared files for vte3
+vulkan-headers-1.4.321.0            Vulkan header files
+vulkan-loader-1.4.321.0             Vulkan ICD loader
+vulkan-tools-1.4.321.0              Vulkan Utilities and Tools
+wavpack-5.8.1p0                     audio codec for lossless, lossy and hybrid compression
+wayland-1.24.0p1                    Display server protocol
+wayland-protocols-1.45              Wayland protocols
+webkitgtk41-2.48.7p0                GTK+ port of the WebKit (4.1) rendering engine
+wget-1.25.0p0                       retrieve files from the web via HTTP, HTTPS and FTP
+wireplumber-0.5.11                  modular session / policy manager for PipeWire
+woff2-1.0.2p1                       Web Open Font Format 2.0 library
+x264-20241229                       free H.264/MPEG-4 AVC encoder
+x265-4.1p0                          free H.265/HEVC encoder
+xapian-core-1.4.29                  search engine library
+xdg-desktop-portal-kde-6.4.5        xdg-desktop-portal Qt/KF6 backend
+xdg-utils-1.2.1                     utilities to assist desktop integration tasks
+xfce-4.20.0                         Xfce desktop meta-package (base installation)
+xfce4-appfinder-4.20.0p0            Xfce4 application finder
+xfce4-mixer-4.20.0p0                Xfce4 volume mixer
+xfce4-notifyd-0.9.7p0               Xfce4 notification daemon
+xfce4-panel-4.20.5                  Xfce4 desktop panel
+xfce4-screensaver-4.20.1            Xfce4 screensaver
+xfce4-session-4.20.3                Xfce4 session manager
+xfce4-settings-4.20.2               Xfce4 settings helpers
+xfce4-taskmanager-1.6.0             Xfce4 task manager and system monitor
+xfce4-terminal-1.1.5                Xfce4 terminal
+xfconf-4.20.0                       Xfce4 settings daemon
+xfdesktop-4.20.1                    Xfce4 desktop manager
+xfwm4-4.20.0p0                      Xfce4 window manager
+xfwm4-themes-4.10.0p0               Xfwm4 window decoration themes
+xplanet-1.3.1p0                     draw pictures of the earth textured by an image
+xsettingsd-1.0.2p0                  lightweight XSETTINGS daemon
+xvidcore-1.3.7                      ISO MPEG-4 compliant video codec
+xwayland-24.1.8                     X server running as wayland application
+xz-5.8.3                            library and tools for XZ and LZMA compressed files
+yakuake-25.08.1v0                   drop-down terminal emulator based on KDE Konsole
+yaml-cpp-0.8.0                      YAML parser and emitter in C++
+yelp-42.3                           GNOME help browser
+yelp-xsl-42.4                       XSLT stylesheets for yelp
+yt-dlp-2025.10.22                   CLI program to download videos from YouTube and other sites
+zimg-3.0.5                          scaling, colorspace conversion, and dithering library
+zip-3.0p3                           create/update ZIP files compatible with PKZip(tm)
+zstd-1.5.7p0                        zstandard fast real-time compression algorithm
+zxing-cpp-2.2.1p0                   C++ barcode image processing library
+zziplib-0.13.72p1                   lightweight library for extracting data from zip files
