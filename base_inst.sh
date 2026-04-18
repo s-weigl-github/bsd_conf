@@ -213,7 +213,7 @@ else
   LS='ls'
 fi
 #
-alias ls="$LS -FHh"
+alias ls='$LS -FHh'
 ##
 export CLICOLOR=1
 export COLORIZE=1
