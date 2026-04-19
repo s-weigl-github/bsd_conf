@@ -17,7 +17,8 @@ case "$-" in
 esac
 ####
 ##
-PS1='[\D{%H:%M:%S %a %d %b} \u@\h]:\n\w \\$ '
+PS1='[\[\e[35m\]\D{%H:%M:%S %a %d %b}\[\e[0m\] \[\e[31m\]\u\[\e[0m\]@\[\e[36m\]\h\[\e[0m\]]:\n \[\e[93m\]\w\[\e[0m\] \[\e[90m\]\\$\[\e[0m\] '
+#PS1='[\D{%H:%M:%S %a %d %b} \u@\h]:\n\w \\$ '
 #
 # for colored terminal output
 export TERM=wsvt25
@@ -29,7 +30,7 @@ else
   LS='ls'
 fi
 #
-alias ls="$LS -FHh"
+alias ls='$LS -FHh'
 ##
 export CLICOLOR=1
 export COLORIZE=1
