@@ -123,6 +123,7 @@ install_net_tools(){
     wget \
     samba \
     ipcalc \
+    bwm-ng \
     sipcalc \
     minicom \
     arpwatch \
