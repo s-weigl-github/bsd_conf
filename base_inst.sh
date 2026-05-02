@@ -248,7 +248,7 @@ alias updatedb='doas /usr/libexec/locate.updatedb'
 alias make='make -j7'
 alias sl='sl -a'
 alias btop='btop --force-utf'
-alias inxi='inxi --admin --verbosity=7 --no-host --widht --height'
+alias inxi='inxi --admin --verbosity=7 --no-host --width --height'
 EOF
 #  # test if .bashrc exists and delete it
   [[ -e ~/.bashrc ]] && rm -rf ~/.bashrc || exit 0
