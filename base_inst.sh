@@ -250,8 +250,9 @@ alias sl='sl -a'
 alias btop='btop --force-utf'
 alias inxi='inxi --admin --verbosity=7 --no-host --widht --height'
 EOF
-#
-  # test if .profile exists an create a symbolic link to bashrc
+#  # test if .bashrc exists and delete it
+  [[ -e ~/.bashrc ]] && rm -rf ~/.bashrc || exit 0
+  # test if .profile exists and create a symbolic link to bashrc
   [[ -e ~/.profile ]] && ln -s ~/.profile ~/.bashrc || exit 1
   #
   # source the profile
