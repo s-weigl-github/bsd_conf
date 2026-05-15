@@ -209,6 +209,11 @@ PS1='[\[\e[35m\]\D{%H:%M:%S %a %d %b}\[\e[0m\] \[\e[31m\]\u\[\e[0m\]@\[\e[36m\]\
 # for colored terminal output
 export TERM=wsvt25
 export LSCOLORS=gxfxcxdxbxegedabagacad
+#
+shopt -s histappend
+shopt -s cdspell
+shopt -s dirspell
+shopt -s autocd
 ##
 if command -v colorls > /dev/null; then
   LS='colorls'
@@ -216,14 +221,16 @@ else
   LS='ls'
 fi
 #
-alias ls='$LS -FHh'
+alias ls='"$LS" -FHh'
 ##
 export CLICOLOR=1
 export COLORIZE=1
 #
 export EDITOR=/usr/local/bin/nano
-export HISTSIZE=5000
-export HISTFILESIZE=500
+export HISTSIZE=500
+export HISTFILESIZE=5000
+export HISTCONTROL=ignoreboth:erasedups
+export HISTIGNORE=ls:cd:cl:history:updatedb
 #
 export PAGER=most
 #
