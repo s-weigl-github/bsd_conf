@@ -21,7 +21,7 @@ cat << "HEADER"
 | $$$$$$$/|  $$$$$$$ /$$$$$$$/|  $$$$$$$       /$$$$$$| $$  | $$ /$$$$$$$/  |  $$$$/|  $$$$$$$| $$| $$
 |_______/  \_______/|_______/  \_______/      |______/|__/  |__/|_______/    \___/   \_______/|__/|__/
                                                                           Developed by Sebastian Weigl
-  install script for OpenBSD    
+  install script for OpenBSD
 
 HEADER
 }
@@ -259,6 +259,25 @@ EOF
   . ~/.profile
 }
 #
+##########################################################
+# 9 #
+##########################################################
+install_ports(){
+  echo
+  echo "############################################"
+  echo " Install ports"
+  echo "############################################"
+  #
+  pushd /usr
+  wget https://ftp.spline.de/pub/OpenBSD/snapshots/ports.tar.gz
+  tar xfz ports.tar.gz
+  rm -rf ports.tar.gz
+  cd ports/
+  rm -rf japanese/ korean/ chinese/
+  popd
+  #
+}
+#
 ########################### MAIN #########################
 show_header
 sleep 2
@@ -280,6 +299,8 @@ sleep 2
 install_graphic_tools # 7 #
 sleep 2
 install_inxi          # 6 #
+sleep 2
+install_ports         # 9 #
 #
 syspatch
 fw_update
