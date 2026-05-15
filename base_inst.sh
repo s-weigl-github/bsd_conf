@@ -215,14 +215,6 @@ shopt -s cdspell
 shopt -s dirspell
 shopt -s autocd
 ##
-if command -v colorls > /dev/null; then
-  LS='colorls'
-else
-  LS='ls'
-fi
-#
-alias ls='"$LS" -FHh'
-##
 export CLICOLOR=1
 export COLORIZE=1
 #
@@ -245,6 +237,7 @@ export LESS_TERMCAP_us=$'\E[04;38;5;146m' # begin underline
 #
 export LESS='-iMRS -x2'
 #
+alias ls='colorls -FHh'
 alias ..='cd ..'
 alias cl='clear'
 alias grep='grep -ni'
