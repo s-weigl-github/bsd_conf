@@ -197,15 +197,14 @@ create_profile(){
   echo " create .profile"
   echo "############################################"
   #
-  # test if .profile exists
+  # test if .profile.old exists if so remove it
   [[ -e ~/.profile.old ]] && rm -rf ~/.profile.old || exit 0
-  # test if .profile exists
+  # test if .profile exists if so move it to .old
   [[ -e ~/.profile ]] && mv ~/.profile ~/.profile.old || exit 0
   #
   cat << EOF >> ~/.profile
 ####
 ##
-#PS1='[\D{%H:%M:%S %a %d %b} \u@\h]:\n\w \\$ '
 PS1='[\[\e[35m\]\D{%H:%M:%S %a %d %b}\[\e[0m\] \[\e[31m\]\u\[\e[0m\]@\[\e[36m\]\h\[\e[0m\]]:\n \[\e[93m\]\w\[\e[0m\] \[\e[90m\]\\$\[\e[0m\] '
 #
 # for colored terminal output
