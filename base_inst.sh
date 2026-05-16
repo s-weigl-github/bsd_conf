@@ -198,6 +198,8 @@ create_profile(){
   echo "############################################"
   #
   # test if .profile exists
+  [[ -e ~/.profile.old ]] && rm -rf ~/.profile.old || exit 0
+  # test if .profile exists
   [[ -e ~/.profile ]] && mv ~/.profile ~/.profile.old || exit 0
   #
   cat << EOF >> ~/.profile
@@ -250,7 +252,7 @@ alias sl='sl -a'
 alias btop='btop --force-utf'
 alias inxi='inxi --admin --verbosity=7 --no-host --width --height'
 EOF
-#  # test if .bashrc exists and delete it
+  # test if .bashrc exists and delete it
   [[ -e ~/.bashrc ]] && rm -rf ~/.bashrc || exit 0
   # test if .profile exists and create a symbolic link to bashrc
   [[ -e ~/.profile ]] && ln -s ~/.profile ~/.bashrc || exit 1
