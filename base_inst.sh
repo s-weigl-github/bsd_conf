@@ -179,6 +179,7 @@ install_graphic_tools(){
   echo "############################################"
   #
   pkg_add \
+    pv \
     gv \
     a2ps \
     groff \
