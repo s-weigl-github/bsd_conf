@@ -301,9 +301,15 @@ install_inxi          # 6 #
 sleep 2
 install_ports         # 9 #
 #
+echo "running syspatch"
 syspatch
+echo " done syspatch"
+echo "running fw_update"
 fw_update
+echo "fw_update done"
+echo "running updatedb"
 /usr/libexec/locate.updatedb
+echo "updatedb done"
 #
 ##########################################################
 # end of script #
