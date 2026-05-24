@@ -321,19 +321,26 @@ echo "############################################"
 ##########################################################
 #
 usage() {
-  echo "Usage: ${0} [-icp]" >&2
+  echo "Usage: ${0} [-icph]" >&2
   echo 'install'
   echo '  -i    to install inxi'
   echo '  -c    create .profile'
   echo '  -p    install ports'
+  echo '  -h    prints this help'
 }
 
-while getopts vl:s OPTION; do
+while getopts icph OPTION; do
   case ${OPTION} in
     i | inxi)     install_inxi # 6 # ;;
     c | profile)  create_profile # 8 # ;;
     p | ports)    install_ports # 9 # ;;
-    ?)  echo 'invalid option' >&2
+    h | help)     usage, exit 0 ;;
+    \?) echo "Error: Invalid option -$OPTARG"
+        usage
+        exit 1
+        ;;
+    :)  echo "Error: Option -$OPTARG requires an argument."
+        usage
         exit 1
         ;;
   esac
