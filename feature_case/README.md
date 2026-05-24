@@ -14,7 +14,7 @@ NetDescription: openBSD config and install with cli options
 >
 
 > [!IMPORTANT]
->
+> script is untested as of 24.05.2026
 
 > [!WARNING]
 >

@@ -278,6 +278,27 @@ install_ports(){
   #
 }
 #
+##########################################################
+# 10 #
+##########################################################
+maintenance(){
+  echo
+  echo "############################################"
+  echo " run system maintenance"
+  echo "############################################"
+  #
+  echo "running syspatch"
+  syspatch
+  echo " done syspatch"
+  echo "running fw_update"
+  fw_update
+  echo "fw_update done"
+  echo "running updatedb"
+  /usr/libexec/locate.updatedb
+  echo "updatedb done"
+  #
+}
+#
 ########################### MAIN #########################
 show_header
 sleep 2
@@ -296,17 +317,6 @@ install_utils         # 5 #
 sleep 2
 install_graphic_tools # 7 #
 sleep 2
-
-#
-echo "running syspatch"
-syspatch
-echo " done syspatch"
-echo "running fw_update"
-fw_update
-echo "fw_update done"
-echo "running updatedb"
-/usr/libexec/locate.updatedb
-echo "updatedb done"
 #
 ##########################################################
 # end of script #
@@ -321,19 +331,21 @@ echo "############################################"
 ##########################################################
 #
 usage() {
-  echo "Usage: ${0} [-icph]" >&2
+  echo "Usage: ${0} [-icpmh]" >&2
   echo 'install'
-  echo '  -i    to install inxi'
-  echo '  -c    create .profile'
-  echo '  -p    install ports'
-  echo '  -h    prints this help'
+  echo '  -i, --inxi        to install inxi'
+  echo '  -c, --profile     create .profile'
+  echo '  -p, --ports       install ports'
+  echo '  -m, --maintain    run maintenance'
+  echo '  -h, --help        prints this help'
 }
 
-while getopts icph OPTION; do
+while getopts "icpmh" OPTION; do
   case ${OPTION} in
-    i | inxi)     install_inxi # 6 # ;;
-    c | profile)  create_profile # 8 # ;;
-    p | ports)    install_ports # 9 # ;;
+    i | inxi)     install_inxi    # 6 # ;;
+    c | profile)  create_profile  # 8 # ;;
+    p | ports)    install_ports   # 9 # ;;
+    m | maintain) maintenance     # 10 # ;;
     h | help)     usage, exit 0 ;;
     \?) echo "Error: Invalid option -$OPTARG"
         usage
