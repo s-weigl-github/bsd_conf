@@ -284,8 +284,6 @@ sleep 2
 pkg_add -Uu
 #
 sleep 2
-create_profile        # 8 #
-sleep 2
 install_system_tools  # 1 #
 sleep 2
 install_info          # 2 #
@@ -298,9 +296,7 @@ install_utils         # 5 #
 sleep 2
 install_graphic_tools # 7 #
 sleep 2
-install_inxi          # 6 #
-sleep 2
-install_ports         # 9 #
+
 #
 echo "running syspatch"
 syspatch
@@ -325,19 +321,18 @@ echo "############################################"
 ##########################################################
 #
 usage() {
-  echo "Usage: ${0} [-vs] [-l LENGTH]" >&2
-  echo 'generate'
-  echo '  -l LENGTH Specify the length'
-  echo '  -s        append something'
-  echo '  -v        verbose mode'
+  echo "Usage: ${0} [-icp]" >&2
+  echo 'install'
+  echo '  -i    to install inxi'
+  echo '  -c    create .profile'
+  echo '  -p    install ports'
 }
 
 while getopts vl:s OPTION; do
   case ${OPTION} in
-    v)  VERBOSE='true'
-        echo 'verbose mode on' ;;
-    l)  LENGTH="&{OPTARG}" ;;
-    s)  USE_SPECIAL_CHAR='true' ;;
+    i | inxi)     install_inxi # 6 # ;;
+    c | profile)  create_profile # 8 # ;;
+    p | ports)    install_ports # 9 # ;;
     ?)  echo 'invalid option' >&2
         exit 1
         ;;
