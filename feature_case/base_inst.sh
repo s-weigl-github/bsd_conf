@@ -318,6 +318,7 @@ usage() {
   echo '  -m  run maintenance'
   echo '  -u  run pkg update'
   echo '  -h  prints this help'
+  echo
 }
 
 while getopts ":aicpmhu" OPTION; do
@@ -344,7 +345,7 @@ while getopts ":aicpmhu" OPTION; do
         exit 1 ;;
   esac
 done
-shift $(($OPTIND -1))
+shift $((OPTIND -1))
 #
 ##########################################################
 # end of script #

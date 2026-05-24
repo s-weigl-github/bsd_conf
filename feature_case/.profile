@@ -1,6 +1,6 @@
 ####
 ##
-PS1='[\[\e[35m\]\D{%H:%M:%S %a %d %b}\[\e[0m\] \[\e[31m\]\u\[\e[0m\]@\[\e[36m\]\h\[\e[0m\]]:\n \[\e[93m\]\w\[\e[0m\] \[\e[90m\]\\$\[\e[0m\] '
+PS1='[\[\e[35m\]\D{%H:%M:%S %a %d %b}\[\e[0m\] \[\e[31m\]\u\[\e[0m\]@\[\e[36m\]\h\[\e[0m\]]:\n \[\e[1;33m\]\w\[\e[0m\] \[\e[90m\]\\$\[\e[0m\] '
 #
 # for colored terminal output
 export TERM=wsvt25
