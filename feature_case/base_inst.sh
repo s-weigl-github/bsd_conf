@@ -256,7 +256,9 @@ EOF
   [[ -f ~/.profile ]] && ln -fs ~/.profile ~/.bashrc || echo 'file not found'
   #
   # source the profile
-  . ~/.profile
+  pushd ~
+  . .profile
+  popd
 }
 #
 ##########################################################
