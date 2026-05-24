@@ -304,27 +304,6 @@ show_header
 sleep 2
 pkg_add -Uu
 #
-sleep 2
-install_system_tools  # 1 #
-sleep 2
-install_info          # 2 #
-sleep 2
-install_dev_tools     # 3 #
-sleep 2
-install_net_tools     # 4 #
-sleep 2
-install_utils         # 5 #
-sleep 2
-install_graphic_tools # 7 #
-sleep 2
-#
-##########################################################
-# end of script #
-##########################################################
-echo "############################################"
-echo "Done! all packages have been installed "
-echo "############################################"
-#
 ##########################################################
 # use getopts for install options #
 #  #
@@ -340,12 +319,19 @@ usage() {
   echo '  -h  prints this help'
 }
 
-while getopts "icpmh" OPTION; do
+while getopts ":aicpmh" OPTION; do
   case ${OPTION} in
-    i)  install_inxi    # 6 # ;;
-    c)  create_profile  # 8 # ;;
-    p)  install_ports   # 9 # ;;
-    m)  maintenance     # 10 # ;;
+    a)  install_system_tools
+        install_info
+        install_dev_tools
+        install_net_tools
+        install_utils
+        install_graphic_tools
+        ;;
+    i)  install_inxi;;    # 6 #
+    c)  create_profile;;  # 8 #
+    p)  install_ports;;   # 9 #
+    m)  maintenance;;     # 10 #
     h)  usage, exit 0 ;;
     \?) echo "Error: Invalid option -$OPTARG"
         usage
@@ -357,4 +343,11 @@ while getopts "icpmh" OPTION; do
         ;;
   esac
 done
-
+shift $(($OPTIND -1))
+#
+##########################################################
+# end of script #
+##########################################################
+echo "############################################"
+echo "Done! all packages have been installed "
+echo "############################################"
