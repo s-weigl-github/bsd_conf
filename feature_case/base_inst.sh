@@ -199,9 +199,9 @@ create_profile(){
   echo "############################################"
   #
   # test if .profile.old exists if so remove it
-  [[ -e ~/.profile.old ]] && rm -rf ~/.profile.old || exit 0
+  [[ -f ~/.profile.old ]] && rm -rf ~/.profile.old || exit 0
   # test if .profile exists if so move it to .old
-  [[ -e ~/.profile ]] && mv ~/.profile ~/.profile.old || exit 0
+  [[ -f ~/.profile ]] && mv ~/.profile ~/.profile.old || exit 0
   #
   cat << EOF >> ~/.profile
 ####
@@ -253,7 +253,7 @@ alias btop='btop --force-utf'
 alias inxi='inxi --admin --verbosity=7 --no-host --width --height'
 EOF
   # test if .profile exists and create a symbolic link to bashrc
-  [[ -e ~/.profile ]] && ln -s ~/.profile ~/.bashrc || exit 1
+  [[ -f ~/.profile ]] && ln -s ~/.profile ~/.bashrc || echo 'file not found'
   #
   # source the profile
   . ~/.profile
@@ -302,7 +302,6 @@ maintenance(){
 ########################### MAIN #########################
 show_header
 sleep 2
-pkg_add -Uu
 #
 ##########################################################
 # use getopts for install options #
@@ -310,16 +309,18 @@ pkg_add -Uu
 ##########################################################
 #
 usage() {
-  echo "Usage: ${0} [-icpmh]" >&2
+  echo
+  echo "Usage: ${0} [-icpmhu]" >&2
   echo 'install'
   echo '  -i  to install inxi'
   echo '  -c  create .profile'
   echo '  -p  install ports'
   echo '  -m  run maintenance'
+  echo '  -u  run pkg update'
   echo '  -h  prints this help'
 }
 
-while getopts ":aicpmh" OPTION; do
+while getopts ":aicpmhu" OPTION; do
   case ${OPTION} in
     a)  install_system_tools
         install_info
@@ -328,19 +329,19 @@ while getopts ":aicpmh" OPTION; do
         install_utils
         install_graphic_tools
         ;;
-    i)  install_inxi;;    # 6 #
-    c)  create_profile;;  # 8 #
-    p)  install_ports;;   # 9 #
-    m)  maintenance;;     # 10 #
-    h)  usage, exit 0 ;;
+    i)  install_inxi ;;    # 6 #
+    c)  create_profile ;;  # 8 #
+    p)  install_ports ;;   # 9 #
+    m)  maintenance ;;     # 10 #
+    u)  pkg_add -Uu ;;
+    h)  usage
+        exit 0 ;;
     \?) echo "Error: Invalid option -$OPTARG"
         usage
-        exit 1
-        ;;
+        exit 1 ;;
     :)  echo "Error: Option -$OPTARG requires an argument."
         usage
-        exit 1
-        ;;
+        exit 1 ;;
   esac
 done
 shift $(($OPTIND -1))
