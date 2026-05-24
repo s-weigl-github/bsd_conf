@@ -8,9 +8,13 @@ NetDescription: openBSD config and install with cli options
 > file .profile creation fails
 
 > [!NOTE]
+>
 
 > [!TIP]
+>
 
 > [!IMPORTANT]
+>
 
 > [!WARNING]
+>
