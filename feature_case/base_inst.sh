@@ -206,7 +206,7 @@ create_profile(){
   cat << EOF >> ~/.profile
 ####
 ##
-PS1='[\[\e[35m\]\D{%H:%M:%S %a %d %b}\[\e[0m\] \[\e[31m\]\u\[\e[0m\]@\[\e[36m\]\h\[\e[0m\]]:\n \[\e[93m\]\w\[\e[0m\] \[\e[90m\]\\$\[\e[0m\] '
+PS1='[\[\e[35m\]\D{%H:%M:%S %a %d %b}\[\e[0m\] \[\e[31m\]\u\[\e[0m\]@\[\e[36m\]\h\[\e[0m\]]:\n \[\e[1;33m\]\w\[\e[0m\] \[\e[90m\]\\$\[\e[0m\] '
 #
 # for colored terminal output
 export TERM=wsvt25
@@ -253,7 +253,7 @@ alias btop='btop --force-utf'
 alias inxi='inxi --admin --verbosity=7 --no-host --width --height'
 EOF
   # test if .profile exists and create a symbolic link to bashrc
-  [[ -f ~/.profile ]] && ln -s ~/.profile ~/.bashrc || echo 'file not found'
+  [[ -f ~/.profile ]] && ln -fs ~/.profile ~/.bashrc || echo 'file not found'
   #
   # source the profile
   . ~/.profile
@@ -299,6 +299,23 @@ maintenance(){
   #
 }
 #
+##########################################################
+# 11 #
+##########################################################
+config(){
+  echo
+  echo "############################################"
+  echo " apply configurations "
+  echo "############################################"
+  #
+  cp nanorc /etc/
+  cp sysctl.conf /etc/
+  # add config to doas.conf
+  mv /etc/examples/doas.conf /etc/
+  echo -e 'permit nopass keepenv techadmin' >> /etc/doas.conf
+  #
+}
+#
 ########################### MAIN #########################
 show_header
 sleep 2
@@ -310,18 +327,19 @@ sleep 2
 #
 usage() {
   echo
-  echo "Usage: ${0} [-icpmhu]" >&2
+  echo "Usage: ${0} [-icpmfuh]" >&2
   echo 'install'
   echo '  -i  to install inxi'
   echo '  -c  create .profile'
   echo '  -p  install ports'
   echo '  -m  run maintenance'
+  echo '  -f  apply configs'
   echo '  -u  run pkg update'
   echo '  -h  prints this help'
   echo
 }
 
-while getopts ":aicpmhu" OPTION; do
+while getopts ":aicpmfuh" OPTION; do
   case ${OPTION} in
     a)  install_system_tools
         install_info
@@ -334,6 +352,7 @@ while getopts ":aicpmhu" OPTION; do
     c)  create_profile ;;  # 8 #
     p)  install_ports ;;   # 9 #
     m)  maintenance ;;     # 10 #
+    f)  config ;;          # 11 #
     u)  pkg_add -Uu ;;
     h)  usage
         exit 0 ;;

@@ -14,6 +14,7 @@ NetDescription: openBSD config and install with cli options
 > [!NOTE]
 > a option, u option, p option, h option works
 > i option needs testing as of 24.05.2026
+> f option added not tested as of 24.05.2026
 
 > [!TIP]
 > none
