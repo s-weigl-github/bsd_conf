@@ -333,20 +333,20 @@ echo "############################################"
 usage() {
   echo "Usage: ${0} [-icpmh]" >&2
   echo 'install'
-  echo '  -i, --inxi        to install inxi'
-  echo '  -c, --profile     create .profile'
-  echo '  -p, --ports       install ports'
-  echo '  -m, --maintain    run maintenance'
-  echo '  -h, --help        prints this help'
+  echo '  -i  to install inxi'
+  echo '  -c  create .profile'
+  echo '  -p  install ports'
+  echo '  -m  run maintenance'
+  echo '  -h  prints this help'
 }
 
 while getopts "icpmh" OPTION; do
   case ${OPTION} in
-    i | inxi)     install_inxi    # 6 # ;;
-    c | profile)  create_profile  # 8 # ;;
-    p | ports)    install_ports   # 9 # ;;
-    m | maintain) maintenance     # 10 # ;;
-    h | help)     usage, exit 0 ;;
+    i)  install_inxi    # 6 # ;;
+    c)  create_profile  # 8 # ;;
+    p)  install_ports   # 9 # ;;
+    m)  maintenance     # 10 # ;;
+    h)  usage, exit 0 ;;
     \?) echo "Error: Invalid option -$OPTARG"
         usage
         exit 1
