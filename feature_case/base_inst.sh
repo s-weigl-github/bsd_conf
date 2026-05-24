@@ -329,15 +329,16 @@ sleep 2
 #
 usage() {
   echo
-  echo "Usage: ${0} [-icpmfuh]" >&2
-  echo 'install'
-  echo '  -i  to install inxi'
-  echo '  -c  create .profile'
-  echo '  -p  install ports'
-  echo '  -m  run maintenance'
-  echo '  -f  apply configs'
-  echo '  -u  run pkg update'
-  echo '  -h  prints this help'
+  echo "Usage: ${0} [-aicpmfuh]" >&2
+  echo 'install and congigure'
+  echo '  -a   install pkges'
+  echo '  -i   to install inxi'
+  echo '  -c    create .profile'
+  echo '  -p    install ports'
+  echo '  -m    run maintenance'
+  echo '  -f    apply configs'
+  echo '  -u    run pkg update'
+  echo '  -h    prints this help'
   echo
 }
 
