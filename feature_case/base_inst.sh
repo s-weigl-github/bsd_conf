@@ -328,10 +328,14 @@ get_xxd(){
   echo " get xxd "
   echo "############################################"
   #
-  cp /myxxd/xxd /usr/bin/
-  cp /myxxd/xxd.1 /usr/local/man/man1/
+  cp myxxd/xxd /usr/bin/
+  cp myxxd/xxd.1 /usr/local/man/man1/
   #
-  echo -e "alias xxd='xxd -R always -c 13'" >> ~/.profile
+  pushd ~
+  echo -e "alias xxd='xxd -R always -c 13'" >> .profile
+  . .profile
+  popd
+  #
   echo "xxd installed"
   #
 }
