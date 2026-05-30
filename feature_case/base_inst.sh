@@ -244,7 +244,7 @@ alias ..='cd ..'
 alias cl='clear'
 alias grep='grep -ni'
 alias mkdir='mkdir -p'
-alias diff='diff -y'
+alias diff='diff'
 alias tree='tree -aCL 3'
 alias updatedb='doas /usr/libexec/locate.updatedb'
 alias make='make -j7'
@@ -318,6 +318,24 @@ config(){
   #
 }
 #
+#
+##########################################################
+# 12 #
+##########################################################
+get_xxd(){
+  echo
+  echo "############################################"
+  echo " get xxd "
+  echo "############################################"
+  #
+  cp /myxxd/xxd /usr/bin/
+  cp /myxxd/xxd.1 /usr/local/man/man1/
+  #
+  echo -e "alias xxd='xxd -R always -c 13'" >> ~/.profile
+  echo "xxd installed"
+  #
+}
+#
 ########################### MAIN #########################
 show_header
 sleep 2
@@ -329,10 +347,11 @@ sleep 2
 #
 usage() {
   echo
-  echo "Usage: ${0} [-aicpmfuh]" >&2
+  echo "Usage: ${0} [-aixcpmfuh]" >&2
   echo 'install and congigure'
-  echo '  -a   install pkges'
-  echo '  -i   to install inxi'
+  echo '  -a    install pkges'
+  echo '  -i    to install inxi'
+  echo '  -x    to install xxd'
   echo '  -c    create .profile'
   echo '  -p    install ports'
   echo '  -m    run maintenance'
@@ -342,7 +361,7 @@ usage() {
   echo
 }
 
-while getopts ":aicpmfuh" OPTION; do
+while getopts ":aixcpmfuh" OPTION; do
   case ${OPTION} in
     a)  install_system_tools
         install_info
@@ -352,6 +371,7 @@ while getopts ":aicpmfuh" OPTION; do
         install_graphic_tools
         ;;
     i)  install_inxi ;;    # 6 #
+    x)  get_xxd ;;         # 12 #
     c)  create_profile ;;  # 8 #
     p)  install_ports ;;   # 9 #
     m)  maintenance ;;     # 10 #
