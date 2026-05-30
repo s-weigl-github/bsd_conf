@@ -99,6 +99,7 @@ install_dev_tools(){
     g++ \
     bison \
     cmake \
+    ninja \
     gmake \
     lowdown \
     libtool \
@@ -290,13 +291,13 @@ maintenance(){
   echo "############################################"
   #
   echo "running syspatch"
-  syspatch
+  syspatch &&
   echo " done syspatch"
   echo "running fw_update"
-  fw_update
+  fw_update &&
   echo "fw_update done"
   echo "running updatedb"
-  /usr/libexec/locate.updatedb
+  /usr/libexec/locate.updatedb &&
   echo "updatedb done"
   #
 }
@@ -328,8 +329,8 @@ get_xxd(){
   echo " get xxd "
   echo "############################################"
   #
-  cp myxxd/xxd /usr/bin/
-  cp myxxd/xxd.1 /usr/local/man/man1/
+  doas cp myxxd/xxd /usr/bin/
+  doas cp myxxd/xxd.1 /usr/local/man/man1/
   #
   pushd ~
   echo -e "alias xxd='xxd -R always -c 13'" >> .profile
