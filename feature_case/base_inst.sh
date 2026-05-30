@@ -331,6 +331,7 @@ get_xxd(){
   #
   doas cp myxxd/xxd /usr/bin/
   doas cp myxxd/xxd.1 /usr/local/man/man1/
+  doas cp myxxd/libc.so.103.0 /usr/lib/
   #
   pushd ~
   echo -e "alias xxd='xxd -R always -c 13'" >> .profile
