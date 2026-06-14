@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 #
+set -e
 ## build xxd on openbsd
 #
 # create the opt dir if it does not exists
