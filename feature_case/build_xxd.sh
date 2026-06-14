@@ -7,7 +7,7 @@ set -e
 [[ -d /usr/opt ]] && echo "opt is present" || mkdir /usr/opt
 pushd /usr/opt
 # check if xxd already exists
-[[ -d /xxd ]] && rm -rf xxd/ || echo "done"
+[[ -e xxd/ ]] && rm -rf xxd/ || echo "done"
 # get the unofficial build -- easy build
 git clone https://github.com/ckormanyos/xxd
 cd xxd/
