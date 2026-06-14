@@ -13,6 +13,7 @@ git clone https://github.com/ckormanyos/xxd
 cd xxd/
 # change min required version from 3.1 to 3.5
 sed -i 's/3.1/3.5/' CMakeLists.txt
+sed -i 's/11/17/' CMakeLists.txt
 #
 mkdir build
 cd src/
@@ -31,6 +32,6 @@ sleep 2
 cd ../build/
 cmake .. -G Ninja && ninja
 cd ..
-clang++ -x c -std=c17 -O2 -Wall -Wextra -Wpedantic -Wconversion -Wsign-conversion -Wint-conversion -Wshadow src/xxd.c -o xxd
+clang++ -x c -std=c19 -O2 -Wall -Wextra -Wpedantic -Wconversion -Wsign-conversion -Wint-conversion -Wshadow src/xxd.c -o xxd
 ## ...
 popd
