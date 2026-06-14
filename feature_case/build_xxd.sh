@@ -3,7 +3,7 @@
 ## build xxd on openbsd
 #
 # create the opt dir if it does not exists
-[[ -d /usr/opt ]] && exit 0 || mkdir /usr/opt
+[[ -d /usr/opt ]] && echo "opt is present" || mkdir /usr/opt
 pushd /usr/opt
 # get the unofficial build -- easy build
 git clone https://github.com/ckormanyos/xxd
