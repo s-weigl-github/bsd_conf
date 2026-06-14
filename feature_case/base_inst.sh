@@ -27,6 +27,16 @@ HEADER
 }
 #
 ##########################################################
+# 0 #
+##########################################################
+show_version(){
+  echo
+  echo "############################################"
+  echo " 2.7 -- 14.06.2026 "
+  echo "############################################"
+}
+#
+##########################################################
 # 1 #
 ##########################################################
 install_system_tools(){
@@ -353,7 +363,10 @@ sleep 2
 #
 usage() {
   echo
-  echo "Usage: ${0} [-aixcpmfuh]" >&2
+  echo "Usage: ${0} [-aixcpmfuvh]" >&2
+  echo
+  echo "Options:"
+  echo
   echo 'install and congigure'
   echo '  -a    install pkges'
   echo '  -i    to install inxi'
@@ -363,11 +376,12 @@ usage() {
   echo '  -m    run maintenance'
   echo '  -f    apply configs'
   echo '  -u    run pkg update'
+  echo '  -v    show version'
   echo '  -h    prints this help'
   echo
 }
 
-while getopts ":aixcpmfuh" OPTION; do
+while getopts ":aixcpmfuvh" OPTION; do
   case ${OPTION} in
     a)  install_system_tools
         install_info
@@ -383,6 +397,7 @@ while getopts ":aixcpmfuh" OPTION; do
     m)  maintenance ;;     # 10 #
     f)  config ;;          # 11 #
     u)  pkg_add -Uu ;;
+    v)  show_version ;;
     h)  usage
         exit 0 ;;
     \?) echo "Error: Invalid option -$OPTARG"
