@@ -286,8 +286,11 @@ install_ports(){
   #
   pushd /usr
   wget https://ftp.spline.de/pub/OpenBSD/snapshots/ports.tar.gz
-  tar xfz ports.tar.gz
-  rm -rf ports.tar.gz
+  echo "download Done"
+  tar xfz ports.tar.gz | pv
+  echo "file extrection Done"
+  rm -rf ports.tar.gz | pv
+  echo "ports tar removed"
   cd ports/
   rm -rf japanese/ korean/ chinese/
   popd
