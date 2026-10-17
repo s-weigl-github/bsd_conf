@@ -32,7 +32,7 @@ HEADER
 show_version(){
   echo
   echo "############################################"
-  echo " 2.7.2 -- 18.10.2026 "
+  echo " 2.7.3 -- 18.10.2026 "
   echo "############################################"
 }
 #
@@ -368,24 +368,26 @@ sleep 2
 ##########################################################
 #
 usage() {
-  echo
-  echo "Usage: ${0} [-aixcpmfuvh]" >&2
-  echo
-  echo "Options:"
-  echo
-  echo 'install and configure'
-  echo '  -a    install packages'
-  echo '  -i    to install inxi'
-  echo '  -x    to install xxd'
-  echo '  -c    create .profile'
-  echo '  -p    install ports'
-  echo '  -m    run maintenance'
-  echo '  -f    apply configs'
-  echo '  -u    run pkg update'
-  echo '  -v    show version'
-  echo '  -h    prints this help'
-  echo
+  cat <<EOF
+
+Usage: ${0##*/} [-aixcpmfuvh]
+
+Options:
+  -a    install packages
+  -i    install inxi
+  -x    install xxd
+  -c    create .profile
+  -p    install ports
+  -m    run maintenance
+  -f    apply configs
+  -u    run pkg update
+  -v    show version
+  -h    print this help
+
+EOF
 }
+
+[ $# -eq 0 ] && { usage; exit 1; }
 
 while getopts "aixcpmfuvh" OPTION; do
   case ${OPTION} in
@@ -412,11 +414,11 @@ while getopts "aixcpmfuvh" OPTION; do
 #    :)  echo "Error: Option -$OPTARG requires an argument."
 #        usage
 #        exit 1 ;;
-    *)  echo "missing an argument"
+    *)  usage
         exit 1 ;;
   esac
 done
-shift $((OPTIND -1))
+shift $((OPTIND - 1))
 #
 ##########################################################
 # end of script #
