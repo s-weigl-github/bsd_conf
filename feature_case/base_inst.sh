@@ -32,7 +32,7 @@ HEADER
 show_version(){
   echo
   echo "############################################"
-  echo " 2.7 -- 14.06.2026 "
+  echo " 2.7.2 -- 18.10.2026 "
   echo "############################################"
 }
 #
@@ -387,7 +387,7 @@ usage() {
   echo
 }
 
-while getopts ":aixcpmfuvh" OPTION; do
+while getopts "aixcpmfuvh" OPTION; do
   case ${OPTION} in
     a)  install_system_tools
         install_info
@@ -412,7 +412,7 @@ while getopts ":aixcpmfuvh" OPTION; do
 #    :)  echo "Error: Option -$OPTARG requires an argument."
 #        usage
 #        exit 1 ;;
-    *)  usage
+    *)  echo "missing an argument"
         exit 1 ;;
   esac
 done
