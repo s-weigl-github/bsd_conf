@@ -412,9 +412,8 @@ while getopts ":aixcpmfuvh" OPTION; do
     :)  echo "Error: Option -$OPTARG requires an argument."
         usage
         exit 1 ;;
-    *)  echo "Error: Option -$OPTARG requires an argument."
-        usage
-        exit 1 ;;
+    *)  usage
+        exit 0 ;;
   esac
 done
 shift $((OPTIND -1))
