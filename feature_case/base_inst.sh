@@ -389,7 +389,7 @@ EOF
 
 [ $# -eq 0 ] && { usage; exit 1; }
 
-while getopts "aixcpmfuvh" OPTION; do
+while getopts ":aixcpmfuvh" OPTION; do
   case ${OPTION} in
     a)  install_system_tools
         install_info
