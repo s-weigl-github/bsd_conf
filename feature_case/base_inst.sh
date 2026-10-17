@@ -364,7 +364,7 @@ sleep 2
 #
 ##########################################################
 # use getopts for install options #
-#  #
+#
 ##########################################################
 #
 usage() {
@@ -373,8 +373,8 @@ usage() {
   echo
   echo "Options:"
   echo
-  echo 'install and congigure'
-  echo '  -a    install pkges'
+  echo 'install and configure'
+  echo '  -a    install packages'
   echo '  -i    to install inxi'
   echo '  -x    to install xxd'
   echo '  -c    create .profile'
@@ -410,6 +410,9 @@ while getopts ":aixcpmfuvh" OPTION; do
         usage
         exit 1 ;;
     :)  echo "Error: Option -$OPTARG requires an argument."
+        usage
+        exit 1 ;;
+    *)  echo "Error: Option -$OPTARG requires an argument."
         usage
         exit 1 ;;
   esac
