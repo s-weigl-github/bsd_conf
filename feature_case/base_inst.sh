@@ -406,14 +406,14 @@ while getopts ":aixcpmfuvh" OPTION; do
     v)  show_version ;;
     h)  usage
         exit 0 ;;
-    \?) echo "Error: Invalid option -$OPTARG"
-        usage
-        exit 1 ;;
-    :)  echo "Error: Option -$OPTARG requires an argument."
-        usage
-        exit 1 ;;
+#    \?) echo "Error: Invalid option -$OPTARG"
+#        usage
+#        exit 1 ;;
+#    :)  echo "Error: Option -$OPTARG requires an argument."
+#        usage
+#        exit 1 ;;
     *)  usage
-        exit 0 ;;
+        exit 1 ;;
   esac
 done
 shift $((OPTIND -1))
